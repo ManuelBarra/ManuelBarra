@@ -7,7 +7,7 @@ Personal Repository
 ```javascript
 const aboutMe = {
    pronouns: "he" | "him",
-   code: [Javascripta, HTML, CSS, Sass, BEM],
+   code: [JavaScript, HTML, CSS, Sass, BEM],
    technologies: {
       frontEnd: {
          js: ["React"],
