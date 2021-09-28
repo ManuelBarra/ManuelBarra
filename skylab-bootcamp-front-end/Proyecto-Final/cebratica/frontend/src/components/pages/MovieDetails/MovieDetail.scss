@@ -1,0 +1,109 @@
+.details-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: rgba(239, 239, 247, 0.842);
+}
+.movie-detail {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  &__h1-title {
+    color: midnightblue;
+  }
+}
+
+.item-box {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  color: midnightblue;
+  &__item-description {
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+  &__item-picture-box {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__img {
+      width: 60%;
+      height: 100%;
+      box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0);
+    }
+  }
+  .item-description__rating-title {
+    color: midnightblue;
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+  .item-description__rating-number {
+    height: 85px;
+    width: 85px;
+    background-color: midnightblue;
+    color: yellow;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0 30px;
+  }
+}
+.item-box:hover {
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0);
+}
+
+@media only screen and (max-device-width: 500px) {
+  .details-section {
+    height: auto;
+  }
+  .movie-detail {
+    padding-top: 20vh;
+    width: 90%;
+    &__h1-title {
+      color: midnightblue;
+    }
+  }
+  .item-box {
+    flex-flow: column wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin: 20% 0;
+    &__item-description {
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      text-align: justify;
+      padding: 10px;
+      &__h2-title {
+        text-align: center;
+        padding: 2px;
+      }
+      &__description {
+        padding: 15px;
+      }
+    }
+    .item-description__h2-title {
+      align-items: center;
+      text-align: center;
+    }
+    .item-description__rating-title {
+      padding: 10px;
+    }
+  }
+  .item-box__item-picture-box__img {
+    width: 200%;
+    margin: 10% 0;
+  }
+}

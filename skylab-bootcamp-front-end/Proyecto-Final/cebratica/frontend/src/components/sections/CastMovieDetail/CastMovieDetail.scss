@@ -1,0 +1,12 @@
+.castDetails {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.director-details,
+.actors-details {
+  font-size: 0.9rem;
+  color: midnightblue;
+  padding: 10px;
+}
