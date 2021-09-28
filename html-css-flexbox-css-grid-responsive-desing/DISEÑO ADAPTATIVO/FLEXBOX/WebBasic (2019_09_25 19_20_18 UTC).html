@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WEB-BASIC</title>
+	<style>
+		*{box-sizing: border-box; margin:0;}
+		#wrapper{
+			max-width: 1200px;
+			margin:auto;
+			/*display:flex;
+			flex-direction: column;*/
+		}
+		a{color: white; text-decoration: none;}
+		header{
+			background: #333;
+			padding:1.5rem;
+			display: flex;
+			/*flex-wrap:wrap;*/
+			justify-content: space-between;
+			align-items: center;
+			
+		}
+
+		header nav {
+			display: flex; /*Para hacer el 100%*/
+			flex-grow:1;
+			align-items: center;
+			margin-left: 30px;
+		}
+		header nav ul{
+			display: flex;
+			list-style: none;
+			justify-content: space-between;
+			flex-grow: 1;
+		}
+		header nav ul li{
+			border: 1px solid blue;
+		}
+		main{
+			display: flex;
+			flex-flow: row wrap;
+			/*flex-wrap: nowrap;*/
+		}
+
+		main h2 {
+			flex: 1 0 100%;
+		}
+		main section{
+			flex: 1 0 50%;
+			align-items: flex-start;
+			background:  #59A57F;
+		}
+		article{
+			/*flex-grow: 1;*/
+		}
+		article.two{
+			/*flex-grow: 5;*/
+		}
+		main aside{
+			flex: 0 0 300px;
+			background: steelblue;}
+		footer{background: coral;}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href="">Mi Web con FlexBox</a></h1>
+			<nav>
+				<ul>
+					<li><a href="">Inicio</a></li>
+					<li><a href="">Sobre Nosotros</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			
+			<section>
+				<h2>Noticias</h2>
+				<article>
+					<h3>Titulo Blog 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui hic, quas obcaecati beatae at molestias. Officia nesciunt quasi voluptas mollitia nostrum perspiciatis provident impedit, molestiae pariatur incidunt veritatis illum.</p>
+				</article>
+					<article class="two">
+					<h3>Titulo Blog 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui hic, quas obcaecati beatae at molestias. Officia nesciunt quasi voluptas mollitia nostrum perspiciatis provident impedit, molestiae pariatur incidunt veritatis illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus facere quam commodi nostrum, magnam. Dolorem sequi illo porro! Dolorem recusandae ipsa nulla labore, harum consequatur aut ut magnam repudiandae cumque.</p>
+				</article>
+					<article>
+					<h3>Titulo Blog 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui hic, quas obcaecati beatae at molestias. Officia nesciunt quasi voluptas mollitia nostrum perspiciatis provident impedit, molestiae pariatur incidunt veritatis illum.</p>
+				</article>
+				</article>
+					<article>
+					<h3>Titulo Blog 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci qui hic, quas obcaecati beatae at molestias. Officia nesciunt quasi voluptas mollitia nostrum perspiciatis provident impedit, molestiae pariatur incidunt veritatis illum.</p>
+				</article>
+
+			</section>
+			<aside>
+				<h3>Categorias  Blog</h3>
+				<ul>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Categorias</a></li>
+					<li><a href="">Categorias</a></li>
+				</ul>
+			</aside>
+		</main>
+		<footer>
+			<p>&copy Escola Espai 2019 Stephanie</p>
+		</footer>
+	</div>
+</body>
+</html>

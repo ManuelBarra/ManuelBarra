@@ -1,0 +1,37 @@
+body{
+	font-family: Geneva, sans-serif;
+	font-size: 16px; /*1em*/
+	background-color: #eee;
+}
+#contents{
+	overflow: auto;
+}
+
+.box {	
+	background-color: #F8FF74;
+	border: 1px solid #CCCCCC;
+	margin: 24px;
+	padding: 70px 12px 85px 32px;
+	width: 350px;
+	float: left;
+}
+h2 {
+	color: #4B1993;
+	font-size: 34px;
+	font-weight: bold;
+	padding-bottom: 50px;
+	text-decoration: underline;
+}
+p {
+	font-family: Times New Roman, Georgia, serif;
+	color: #0083C7;
+	font-size: 34px;
+	font-weight: bold;
+	padding-bottom: 50px;
+	text-indent: 29px;
+}
+a{
+	font-size: 30px;
+	font-family: Courier New, Courier, monospace;
+	color: #FF5F39;
+}

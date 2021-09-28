@@ -1,0 +1,70 @@
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#wrapper{
+	width: 950px;
+	margin: auto;
+}
+header nav{
+	height: 55px;
+	background: rgba(105,105,105,1);
+	background: -moz-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(120,120,120,1) 0%, rgba(135,135,135,1) 0%, rgba(107,107,107,1) 8%, rgba(95,95,95,1) 17%, rgba(56,56,56,0.92) 46%, rgba(56,56,56,0.91) 49%, rgba(56,56,56,0.91) 62%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(105,105,105,1)), color-stop(0%, rgba(120,120,120,1)), color-stop(0%, rgba(135,135,135,1)), color-stop(8%, rgba(107,107,107,1)), color-stop(17%, rgba(95,95,95,1)), color-stop(46%, rgba(56,56,56,0.92)), color-stop(49%, rgba(56,56,56,0.91)), color-stop(62%, rgba(56,56,56,0.91)));
+	background: -webkit-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(120,120,120,1) 0%, rgba(135,135,135,1) 0%, rgba(107,107,107,1) 8%, rgba(95,95,95,1) 17%, rgba(56,56,56,0.92) 46%, rgba(56,56,56,0.91) 49%, rgba(56,56,56,0.91) 62%);
+	background: -o-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(120,120,120,1) 0%, rgba(135,135,135,1) 0%, rgba(107,107,107,1) 8%, rgba(95,95,95,1) 17%, rgba(56,56,56,0.92) 46%, rgba(56,56,56,0.91) 49%, rgba(56,56,56,0.91) 62%);
+	background: -ms-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(120,120,120,1) 0%, rgba(135,135,135,1) 0%, rgba(107,107,107,1) 8%, rgba(95,95,95,1) 17%, rgba(56,56,56,0.92) 46%, rgba(56,56,56,0.91) 49%, rgba(56,56,56,0.91) 62%);
+	background: linear-gradient(to bottom, rgba(105,105,105,1) 0%, rgba(120,120,120,1) 0%, rgba(135,135,135,1) 0%, rgba(107,107,107,1) 8%, rgba(95,95,95,1) 17%, rgba(56,56,56,0.92) 46%, rgba(56,56,56,0.91) 49%, rgba(56,56,56,0.91) 62%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#383838', GradientType=0 );
+	border-radius: 25px;
+	margin-top: 30px;
+}
+header nav ul{
+	overflow: auto;
+}
+header nav ul li{
+	float: left;
+	width: 158px;
+	text-align: center;
+
+}
+header nav ul li ul{
+	display: none;
+	position: absolute;
+}
+header nav ul li:hover ul{
+	display: block;
+	position: relative;
+}
+header nav ul li a{
+	width: 150px;
+	display: inline-block;
+	margin: 9px 0 0 0;
+	padding: 10px 0 10px 0;
+	color: #E7E5E5;
+	font-weight: 600; 
+}
+header nav ul li:hover a{
+	color: #616161;
+	background: #bababa;
+	text-shadow: #e0e0e0 1px 1px 0;
+	border-radius: 25px;
+	color: #444444;
+}
+header nav ul li:hover ul{
+	background-color: #E7E5E5;
+	border-radius: 25px;
+}
+header nav ul li:hover ul li a{
+	background-color: #E7E5E5;
+	font-weight: 300;
+	border-radius: 0px;
+}
+
+header nav ul li ul li:hover a{
+	background-color: #0186BA;
+}

@@ -1,0 +1,726 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+#wrapper{
+	background-image: url('../img/templte.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-width: 100%;
+	margin: 0 auto;
+	min-height: 99vh;
+	display: flex;
+	flex-flow: row wrap;
+}
+strong{
+	font-weight: bold;
+}
+/*-------------> HEADER <--------------*/
+/*----------->   ADDRESS <-------------*/
+address{
+	display: flex;
+	flex: 1 0 auto;
+	align-self: flex-start;
+	background-color: #e6dada;
+	width: 100%;
+	padding: 10px 24%;
+}
+address a{
+	font-size: 0.7em;
+}
+address .info{
+	flex-grow: 60;
+}
+address .info i{
+	font-size: 1.3em;
+}
+address .truca{
+	flex-grow: 0;
+	align-self: center;
+	padding-right: 8px;
+}
+address .skype{
+	flex-grow: 5;
+	border-left: solid 1px black;
+	padding-left: 5px;
+	align-self: center;
+}
+/*-------------> HEADER <---------*/
+header{
+	background-color: white;
+	width: 100%; 
+	padding: 4px;
+	align-self: flex-start;
+}
+header .navegator{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto;
+	}
+header .navegator .logo{
+	flex-grow: 1;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
+header .navegator .logo a{
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+header .navegator .logo a i{
+	font-size: 0.5em;
+	color: white;
+	background-color: #ff6c00;
+	padding: 8px;
+	border-radius: 25px;
+	vertical-align: top;
+}
+header .navegator .logo p{
+	font-size: 0.8em;
+	font-style: italic;
+	align-self: flex-start;
+	margin-left: 75px;
+}
+header .navegator .logo a strong{
+	font-weight: bold;
+}
+header .navegator nav{
+	margin-left: auto;
+}
+header .navegator nav ul{
+	display: flex;
+}
+header .navegator nav ul li a{
+	padding: 15px;
+	font-size: 0.8em;
+}
+main section{
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 100%;
+	margin: 0 auto;
+}
+main section article{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex: 1 0 auto;
+	background-image: url('../img/minicar.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main section article .caja{
+	width: 380px;
+	background-color: #fff6;
+	margin-left: 304px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 97px 15px 249px 15px;
+}
+main section article .caja h1{
+	color: red;
+	font-size: 1.2em;
+}
+main section article .caja p{
+	font-size: 0.8em;
+	line-height: 18px;
+	padding-top: 15px;
+}
+main section article .caja a{
+	padding: 12px;
+	border-radius: 2px;
+	background-color: red;
+	color: white;
+	font-size: 0.8em;
+	margin: 10px 0 0 195px;
+}
+main section .banner{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 18px;
+	background-color: #00ffff78;
+	width: 100%;
+}
+main section .banner .text{
+	color: white;
+	font-size: 1.2em;
+	margin-right: 178px;
+}
+main section .banner .text h1 strong{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+main section .banner .text p{
+	font-size: 0.7em;
+	font-style: italic;
+}
+main section .banner .vermas a{
+	font-size: 0.7em;
+	padding: 14px;
+	border-radius: 2px;
+	background-color: #127466;
+	color: white;
+}
+main section .quehacemos{
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: white;
+	width: 100%;
+}
+main section .quehacemos h1{
+	align-self: center;
+	font-size: 1.24em;
+	margin: 32px;
+}
+main section .quehacemos h1 strong{
+	font-weight: bold;
+}
+main section .quehacemos h2{
+	background-color: #7fffd4;
+	align-self: center;
+	padding: 10px;
+	font-size: 0.7em;
+	width: 784px;
+	color: #1f797d;
+	text-align: center;
+}
+main section .quehacemos ul{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 770px;
+	margin: auto;
+}
+main section .quehacemos ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main section .quehacemos ul li i{
+	padding: 20px;
+	border-radius: 60px;
+	background-color: blue;
+	color: white;
+	margin: 35px 0 15px 0;
+	font-size: 1.3em;
+}
+main section .quehacemos ul li:nth-child(1) i{
+	background-color: #2cacd4;
+}
+main section .quehacemos ul li:nth-child(2) i{
+	background-color: #a5ffe1ed;
+}
+main section .quehacemos ul li:nth-child(3) i{
+	background-color: #ff7e31;
+}
+main section .quehacemos ul li:nth-child(4) i{
+	background-color: #e57acf;
+}
+main section .quehacemos ul li h3{
+	font-size: 1.2em;
+}
+main section .quehacemos ul li p{
+	font-size: 0.7em;
+	line-height: 15px;
+	padding: 17px;
+	text-align: justify;
+}
+main section #gallery{
+	background-color: #c0c0c036;
+	margin-top: 22px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+main section #gallery h1{
+	font-size: 1.65em;
+	padding: 30px 20px 15px 20px;
+	width: 100%;
+	text-align: center;
+}
+main section #gallery .autos ul{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	width: 730px;
+}
+main section #gallery .autos ul li{
+	padding: 0px 4px 16px 0px;
+}
+main section #gallery .autos ul li img{
+	width: 178px;
+    height: 163px;
+}
+main section #gallery .autos ul li p{
+	font-size: 0.7em;
+	text-align: center;
+	background-color: silver;
+	padding: 3px;
+}
+/*---------------> formulario <------------------*/
+main section .formulario{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	background-color: #ffffff75;
+}
+main section .formulario .form{
+	width: 50%;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+	justify-content: center;
+	height: 368px;
+}
+main section .formulario .form .formh1{
+	align-self: center;
+	font-size: 1.22em;
+	margin: 15px 0 12px 132px;
+}
+main section .formulario .form form{
+	width: 405px;
+    margin: 0 5px 0 0;
+}
+main section .formulario .form .boton{
+	display: flex;
+	justify-content: flex-end;
+}
+main section .formulario .form .boton input{
+	margin: 2px 10px 0 0;
+	width: 22%;
+	line-height: 28px;
+	color: white;
+	background-color: red;
+}
+main section .formulario .form p input{
+	margin: 2px 0;
+	width: 100%;
+	line-height: 26px;
+}
+main section .formulario .aside{
+	width: 50%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+	height: 367px;
+	justify-content: flex-start;
+}
+main section .formulario .aside h1{
+	font-size: 1.3em;
+	width: 100%;
+	margin: 21px 0 0 19px;
+}
+main section .formulario .aside p{
+	font-size: 0.7em;
+	font-style: italic;
+	width: 340px;
+	margin: 0px 0 0 42px;
+	line-height: 16px;
+}
+main section .formulario .aside .post{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 0 0 37px 32px;
+}
+main section .formulario .aside .post img{
+	width: 45px;
+	margin: 0 -11px 0 0;
+}
+main section .formulario .aside .post p{
+	font-size: 0.7em;
+	width: 370px;
+	margin: 0px 0 0 42px;
+	line-height: 16px;
+	font-style: initial;
+}
+main section .formulario .aside .post .asidepost .gina{
+	font-weight: bold;
+}
+/*---------------footer--------------*/
+footer{
+	color: white;
+	background-color: black;
+	width: 100%;
+}
+footer .superfoot{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	padding: 10px;
+	border-bottom: solid 1px white;
+}
+footer .superfoot .localizacion, footer .superfoot .marques{
+	font-size: 0.8em;
+	flex: 1 0 auto;
+}
+footer .superfoot .localizacion h1, footer .superfoot .marques h1{
+	font-size: 1.2em;
+	margin: 15px 0;
+}
+footer .superfoot .localizacion h2{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+footer .superfoot .localizacion ul{
+	font-size: 0.8em;
+}
+footer .superfoot .localizacion ul li i{
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+footer .superfoot .localizacion ul .espacio{
+	margin: 0 0 5px 17px;
+}
+footer .superfoot .marques ul li{
+	font-size: 0.9em;
+	margin: 8px 10px 5px 10px;
+}
+footer .superfoot .marques ul li i{
+	font-size: 0.3em;
+	vertical-align: middle;
+	margin: 5px;
+}	
+footer .superfoot .template{
+	flex: 2 0 0;
+	padding: 10px;
+}
+footer .superfoot .template h1{
+	font-size: 1.2em;
+}
+footer .superfoot .template h1 strong{
+	font-weight: bold;
+}
+footer .superfoot .template h1 i{
+	padding: 5px;
+	background-color: purple;
+	font-size: 0.6em;
+	border-radius: 25px;
+}
+footer .superfoot .template p{
+	font-size: 0.8em;
+	margin: 10px 0;
+}
+footer .superfoot .template .foto{
+	display: flex;
+}
+footer .superfoot .template .foto li img{
+	margin: 5px;
+}
+footer .footfinal{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.7em;
+	padding: 20px 0 10px 0;
+}
+footer .footfinal p span{
+	font-weight: bold;
+}
+/*----------- RESPONSIVE-----------*/
+@media screen and (min-width: 501px) and (max-width: 960px) {
+	address {
+	    display: flex;
+	    flex: 1 0 auto;
+	    align-self: flex-start;
+	    background-color: #e6dada;
+	    width: 100%;
+	    padding: 10px;
+	}
+	address .skype {
+	    flex-grow: 1!important;
+	    border-left: solid 1px black;
+	    align-self: center;
+	    padding-left: 5px;
+	}
+	header .navegator {
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    width: 100% !important;
+	}
+	main section article {
+    background-position-x: -476px;
+	}
+	main section .banner {
+	    display: flex;
+	    flex-flow: row nowrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    padding: 18px;
+	    background-color: #00ffff78;
+	}
+	main section .quehacemos h2 {
+	    background-color: #7fffd4;
+	    align-self: center;
+	    padding: 20px 90px;
+	    font-size: 0.7em;
+	    width: 100%;
+	    color: #1f797d;
+	    text-align: center;
+	}
+	main section .quehacemos ul {
+	    display: flex;
+	    flex-flow: row wrap;
+	    width: 700px;
+	    margin: auto;
+	}
+	main section .quehacemos ul li {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    width: 350px;
+	}
+	main section #gallery .autos ul {
+	    display: flex;
+	    flex-flow: row wrap;
+	    align-items: center;
+	    width: 730px;
+	    justify-content: center;
+	}
+	main section #gallery .autos ul li {
+    margin: 15px;
+	}
+	main section #gallery .autos ul li img {
+	    width: 330px;
+	    height: 330px;
+	}
+	main section .formulario .form {
+	    width: 49%;
+	    display: flex;
+	    flex-flow: column;
+	    align-items: flex-start;
+	    justify-content: center;
+	    height: 368px;
+	    margin-left: 5px;
+	}
+	main section .formulario .form form {
+    width: 100%;
+	}
+	main section .formulario .form .formh1 {
+	    align-self: flex-start;
+	    font-size: 1.22em;
+	    margin: 0 0 10px 0;
+	}
+	main section .formulario .form p input {
+	    margin: 2px 0;
+	    width: 100%;
+	    line-height: 26px;
+	}
+	main section .formulario .form #form p #text{
+		width: 100%;
+	}
+	main section .formulario .form .boton input {
+	    margin: 2px 0px 0 0;
+	    width: 22%;
+	    line-height: 28px;
+	    color: white;
+	    background-color: red;
+	}
+	main section .formulario .aside {
+	    width: 45%;
+	    display: flex;
+	    flex-flow: row wrap;
+	    align-items: flex-end;
+	    height: 367px;
+	    justify-content: center;
+	}
+	footer .superfoot {
+	    width: 100%;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-flow: row nowrap;
+	    justify-content: center;
+	    padding: 10px;
+	    border-bottom: solid 1px white;
+	}
+	footer .superfoot {
+    width: 100%;
+	}
+	footer .footfinal {
+    width: 100%;
+	}
+}
+@media screen and (min-width: 250px) and (max-width: 500px){
+	address{
+		flex-flow: column;
+		align-items: center;
+		padding: 3px;
+	}
+	address .skype{
+		border: none;
+	}
+	header .navegator{
+	 flex-flow: column;
+	}
+	header .navegator nav {
+		margin-left: 0;
+	}
+	header .navegator nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+	}
+	header .navegator nav ul li a {
+    padding: 0;
+    font-size: 0.8em;
+    line-height: 23px;
+	}
+	main section{
+	width: 500px;
+	}
+	main section article {
+    background-position-x: -770px;
+	}
+	main section article .caja {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+	}
+	main section article .caja a {
+    padding: 15px;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+    font-size: 1.1em;
+    margin: 10px 0 0 0;
+	}
+	main section article .caja h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+	}
+	main section .banner {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+	}	
+	main section .banner .text {
+    margin-bottom: 15px;
+	}
+	main section .banner .text {
+    margin-right: 0;
+    text-align: center;
+	}
+	main section .banner .vermas a {
+    background-color: #c20a0a;
+	}
+	main section .quehacemos h2 {
+    padding: 20px 50px;
+	}
+	main section .quehacemos {
+    width: 100%;
+	}
+	main section .quehacemos ul {
+    justify-content: center;
+    width: 80%;
+    flex-flow: column;
+	}
+	main section .quehacemos ul .qhicons:last-child {
+	display: none;
+	}
+	main section #gallery .autos ul {
+    width: 100%;
+    flex-flow: column;
+	}
+	main section #gallery .autos ul li img {
+    width: 100%;
+    height: 100%;
+	}
+	main section #gallery .autos ul li {
+   	margin: 0 0 30px 0;
+	}
+	main section .formulario {
+    flex-flow: column wrap;
+	}
+	main section .formulario .form {
+    margin: 0 auto;
+    width: 95%;
+    align-items: flex-start;
+    justify-content: center;
+	}
+	main section .formulario .form .formh1 {
+    align-self: flex-start;
+    margin: 15px 0 12px 0px;
+	}
+	main section .formulario .form form {
+    width: 100%;
+    margin: 0 5px 0 0;
+	}
+	main section .formulario .form .boton input {
+    margin: 0;
+    width: 100%;
+	}
+	main section .formulario .form p #text{
+		width: 100%!important;
+	}
+	main section .formulario .aside {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 367px;
+    justify-content: center;
+    margin: 0 auto;
+	}
+	main section .formulario .aside p {
+    width: 100%;
+    margin: 0;
+	}
+	main section .formulario .aside h1 {
+    width: 100%;
+    margin: 0;
+	}
+	footer .superfoot {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: solid 1px white;
+    align-items: center;
+    text-align: center;
+	}
+	footer .superfoot div i{
+		display: none;
+	}
+	footer .superfoot .localizacion ul .espacio {
+    margin: 0 0 5px 0;
+	}
+	footer .superfoot .template h1 i {
+    display: inline-flex;
+	}
+	footer .footfinal {
+    flex-flow: column;
+	}
+	footer .footfinal p{
+		padding: 10px;
+	}
+}

@@ -1,0 +1,67 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clip Path</title>
+	<style>
+		/*.clip-examples {    
+		  clip-path: inset(from top, from right, from bottom, from left, rounded-x, rounded-y)
+		  clip-path: polygon(a, bunch, of, points)
+		  clip-path: circle(radius at x, y)
+		  clip-path: ellipse(radius-x, radius-y at x, y)
+		}*/
+		.container{
+			position: relative;
+			width: 750px;
+		}
+
+		img {
+			max-width: 100%;
+			/*clip-path: inset(0 5% 12% 5%);*/
+			/*clip-path: circle(radio + punto de partida: center, x y);*/
+			/*clip-path: circle(50% at top);*/
+			/*1-definir el trazado inset(sentido horario)*/
+			/*clip-path: ellipse(radio + radio + punto de partida: center, x y);*/
+			/*clip-path: ellipse(30% 60% at center);*/
+			clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 0, 0 100%, 0 0);
+		}
+
+		p{
+			/*display: none;*/
+			font-family: sans-serif;
+			position: absolute;
+			top: 0;
+			text-align: justify;
+			font-size: 1.1em;
+			margin: 0;
+			line-height: 1.4;
+			clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+		}
+
+		.banner img {
+		  width: 40%;
+		  margin-bottom: 50px;
+		  -webkit-clip-path: polygon(0 0, 100% 0, 50% 20%, 30% 80%);
+		          clip-path: polygon(0 0, 100% 0, 50% 20%, 30% 80%);
+		  -webkit-clip-path: circle(100px at 50% 150px);
+		          clip-path: circle(100px at 50% 150px);
+		  transition: -webkit-clip-path .3s;
+		  transition: clip-path .3s;
+		  transition: clip-path .3s, -webkit-clip-path .3s;
+		}
+		.banner img:hover {
+		  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		  -webkit-clip-path: circle(800px at center);
+		          clip-path: circle(800px at center);
+		 }
+	</style>
+</head>
+<body>
+	<div class="banner"><img src="clown.jpg"/></div>
+	<div class="container">
+		<img src="louvre.jpg" alt="#">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nesciunt dignissimos ipsam eius repellendus quae aspernatur corporis omnis beatae et sequi nulla asperiores voluptatibus distinctio, sunt sit magnam veniam. Cupiditate facere enim, facilis, explicabo alias aut aliquam quia repellendus sint perferendis voluptate provident possimus. Repellat asperiores perferendis, saepe minima maiores quaerat numquam non ullam, expedita et porro ab iure odio, dolore aliquid in odit! Alias quisquam voluptates at, nam sequi dolores eius enim repellat quas. Quo tempora possimus praesentium, eum provident. Saepe aperiam eos quaerat laboriosam, tempora dolorum, inventore libero, nihil magnam excepturi vero rem quas, quasi non. Porro quis earum deleniti dignissimos quo, nobis, ea, aperiam facilis iste eum deserunt, optio nulla quaerat ullam. Soluta pariatur officia doloremque molestiae a cumque iure possimus, magni minima. Natus nostrum, tempore eius asperiores enim, ipsa modi voluptas blanditiis veniam non? Sapiente quasi ducimus maxime numquam officiis quisquam quas aliquid provident, alias molestiae nulla eos. Voluptate saepe quidem, eaque molestias ullam sequi deleniti expedita natus architecto aliquid maiores maxime ea molestiae placeat explicabo repudiandae iste harum laboriosam nihil assumenda, inventore optio, incidunt consectetur hic! Nihil debitis, voluptas, recusandae accusantium fugit ad accusamus rerum, sequi non itaque perferendis mollitia repellendus reiciendis quas. Quisquam, tempore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil repellendus quod dolorum, totam cupiditate, maxime sunt nam nostrum temporibus aliquid fuga. Quae impedit ipsum ex, corporis doloremque tempora sit obcaecati, ab blanditiis inventore facere qui maxime sunt libero,</p>
+	</div>
+</body>
+</html>

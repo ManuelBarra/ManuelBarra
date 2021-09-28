@@ -1,0 +1,271 @@
+body {
+	font-family: sans-serif, Verdana;
+	font-size: 18px;
+	color: #222;
+	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#wrapper {
+	width: 1160px;
+	margin: auto;
+	background-color: #F2F2F2;
+	background-repeat: no-repeat;
+}
+
+#header {
+	overflow: auto;
+	padding-bottom: 5px;
+	background-color: black;
+}
+/*------------Aqui empieza mi header--------------*/
+
+header #titulo{
+	float: left;
+	font-size: 2em;
+	width: 485px;
+}
+header h1{
+	padding: 6px 0px 0 31px;
+	letter-spacing: 1px;
+}
+header h1 a{
+	color:orange;
+	font-size: 42px;
+	font-family: initial;
+	font-weight: bold;
+}
+header #titulo p{
+	color: white;
+	font-size: 0.4em;
+	padding: 7px 0 7px 34px;
+
+}
+
+header nav {
+	float: center;
+	margin: 0 0 0 0;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	display: inline-block;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 20px 0 0 2px;
+	padding: 7px 26px 8px 30px;
+	
+}
+header nav ul li a#buttonnav{
+	display: inline-block;
+	padding: 8px 32px 8px 34px;
+	margin: 20px 2 0px 0;
+	font-size: 15px;
+	font-weight: bold;
+	color:#000000b3;
+	background-color:orange;
+	border-radius: 6px;
+}
+header nav ul li a:hover{
+	background-color: orange;
+	color: black;
+	border-radius: 8px;
+}
+
+/*------------Aqui empieza mi main--------------*/
+
+main {
+	overflow: auto;
+}
+
+main section {
+	width: 519px;
+	float: left;
+	background-color: orange;
+	padding: 0 0 109px 0;
+
+}
+
+/*------------Aqui empieza mi header articulo--------------*/
+
+main section .article {
+	width: 468px;
+	margin: 40px 25px 8px 31px;
+	border-bottom: solid 1px black;
+	overflow: auto;
+}
+h2{
+	color:white;
+	font-size: 30px;
+	padding: 17px 0px 1px 15px;
+	letter-spacing: 2px;
+}
+
+
+main section .article .header-article .autor{
+	overflow: auto;
+	padding: 16px 0 17px 0;
+}
+/*------------Aqui empieza mi  divarticulo--------------*/
+main section .article .textoyfoto{
+	overflow: auto;
+
+}
+main section .article .textoyfoto img{
+	float: left;
+	border: solid 1px
+    #00000047;
+    padding: 8px 6px 4px 4px;
+    margin: 2px 0 0 0;
+}
+main section .article .textoyfoto .textoarticulo{
+	float: left;
+	width: 260px;
+	text-align: justify;
+	font-size: 0.69em;
+	padding: 4px 0 0 27px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+main section .article .header-article .autor p{
+	float: left;
+	color: black;
+	border-top: dotted 1px white;
+	border-bottom: dotted 1px white;
+	font-size: 13px;
+	padding: 6px 0 4px 8px;
+	letter-spacing: 1.6px;
+}
+main section .article .header-article .autor p a{
+	padding: 0 28px 0 0;
+}
+main section .article .header-article .autor p span{
+	font-weight: bold;
+}
+
+/*------------Aqui empieza mi articulo footer--------------*/
+main section .article .footer-article {
+	margin-bottom: 18px;
+}
+footer {
+	overflow: auto;
+	padding: 10px;
+}
+footer ul li {
+	display: inline-block;
+}
+footer ul li{
+	font-size: 0.8em;
+	font-weight: bold;
+}
+footer ul li a i{
+	font-size: 20px;
+	margin-right: 10px;
+}
+li.moreno{
+	margin: 37px 195px 0 -9px;
+}
+li.morena i{
+	color:white;
+	background-color:black;
+	padding: 0 4px 0 6px;
+	border-radius: 10px;
+	line-height: 0.9;
+	}
+
+/*------------Aqui empieza mi aside--------------*/
+
+main aside {
+	float: left;
+	text-align: center;
+	width: 641px;
+	background-image: url(../img/sidebar.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+main aside #banner #bannerul{
+	width: 386px;
+	padding: 38px 0 34px 0;
+	border-bottom: dotted 1px #aaa5a4e3;
+	margin: 0 0px 0 29px;	
+}
+main aside #banner #bannerul li{
+	display: inline-block;
+}
+aside #asidecategoria{
+	overflow: auto;
+	font-size: 0.5em;
+	padding: 0 0 299px 0;
+}
+aside #asidecategoria #categoria{
+	float: left;
+	padding: 0 0 0 31px;
+	text-align: left;
+	width: 179px;
+}
+aside #asidecategoria #categoria ul li{
+	font-size: 1.5em;
+	line-height: 2;
+	padding: 3px 0 1px 0;
+	border-bottom: dotted 1px #2d272736;
+}
+aside #asidecategoria #comentarios{
+	float: left;
+	text-align: left;
+	padding: 0 0 0 30px;
+	width: 180px;
+}
+aside #asidecategoria #comentarios div a{
+	color: #FF563C;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1.6em;
+}
+aside #asidecategoria #comentarios div p{
+	font-size: 1.5em;
+	padding: 0 0 16px 0;
+	margin: 2px 0px 12px 0;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	border-bottom: dotted 1px #2d272736;
+}
+h3{
+	color:orange;
+	font-size: 2em;
+	font-weight: bold;
+	border-left: solid 5px orange;
+	padding: 7px 0px 0 10px;
+	margin: 29px 0 9px 0;
+}
+#comentarios h3{
+	margin: 28px 0px 16px 0;
+}
+
+/*------------Aqui empieza mi footer--------------*/
+
+footer {
+	overflow: auto;
+	padding: 10px;
+}
+
+footer ul li {
+	display: inline-block;
+}
+#realfooter{
+	background-color: black;
+}
+#realfooter p{
+	color: white;
+	font-size: 0.7em;
+}
+#realfooter p>a{
+	text-decoration: underline;
+}

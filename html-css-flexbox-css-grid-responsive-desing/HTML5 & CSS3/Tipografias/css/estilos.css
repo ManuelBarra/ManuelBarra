@@ -1,0 +1,89 @@
+body{
+	width: 1080px;
+	margin: auto;
+}
+#wrapper{
+	width: 900px;
+	border: 10px solid aquamarine;
+	padding: 20px;
+	border-radius: 25px;
+	margin: 50px;
+}
+.manilla{
+	border-radius: 25px;
+	border: 10px solid blue;
+	background-color: black;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+.manilla h1{
+	font-family: 'Dorsa', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	padding: 25px 0 0 0;
+	color: silver;
+}
+.manilla h2{
+	font-family: 'Monsieur La Doulaise', cursive;
+	color: gold;
+	text-align: center;
+	font-size: 40px;
+}
+.manilla p{
+	color: gold;
+	font-family: 'Kodchasan', sans-serif;
+	text-align: center;
+	padding: 15px 0 15px 0;
+}
+.rambleta{
+	border-radius: 25px;
+	border: 10px solid blue;
+	background-color: brown;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+.rambleta h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 100px;
+	text-align: center;
+	padding: 25px 0 0 0;
+	color: pink;
+}
+.rambleta h2{
+	font-family: 'Shadows Into Light', cursive;
+	color: pink;
+	text-align: center;
+	font-size: 40px;
+}
+.rambleta p{
+	color: pink;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	padding: 15px 0 15px 0;
+}
+.corabit{
+	border-radius: 25px;
+	border: 10px solid blue;
+	background-color: white;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+.corabit h1{
+	font-family: 'Wire One', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	padding: 25px 0 0 0;
+	color: black;
+}
+.corabit h2{
+	color: black;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	padding: 15px 0 15px 0;
+}
+.corabit p{
+	color: black;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-align: center;
+	padding: 15px 0 15px 0;
+}

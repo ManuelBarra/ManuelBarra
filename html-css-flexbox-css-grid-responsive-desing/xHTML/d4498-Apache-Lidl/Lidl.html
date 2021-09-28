@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Indice de foro</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="main">
+			<form action="datos.php" method="post">
+				<fieldset>
+					<legend><img src="img/lidl.png" alt="lidl"/></legend>
+						<p>Para su C.V. necesitamos algunos datos personales. Responderemos a su C.V. en breve</p>
+						<p>*Campos obligatorios: por favor rellenar</p>
+					<ul>
+						<li>
+							<label for="sc">Solicitud como:</label>
+							<select id="sc" name="sc">
+								<optgroup label="Cargo">
+									<option value="01">Responsable de tienda para zona Baix Llobregat</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<label for="horariolaboral">Horario laboral deseado</label>
+							<select id="horariolaboral" name="horariolaboral">
+								<optgroup label="Elige tu horario deseado">
+									<option value="01">Am</option>
+									<option value="02">Pm</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<label for="fechadeseada">Fecha deseada de inicio</label>
+							<input type="text" id="fechadeseada" name="fechadeseada"/>
+						</li>
+						<li>
+							<label for="lugardetrabajo">Lugar de trabajo deseado</label>
+							<select id="lugardetrabajo" name="lugardetrabajo">
+								<optgroup label="Elige tu lugar de trabajo">
+									<option value="01">Barcelona</option>
+									<option value="02">Aragón</option>
+									<option value="03">Asturias</option>
+									<option value="05">Cantabria</option>
+									<option value="06">Castilla-La Mancha</option>
+									<option value="07">Castilla y León</option>
+									<option value="08">Cataluña</option>
+									<option value="09">Comunidad de Madrid</option>
+									<option value="10">Comunidad Valenciana</option>
+									<option value="11">Extremadura</option>
+									<option value="12">Galicia</option>
+									<option value="14">La Rioja</option>
+									<option value="15">Navarra</option>
+									<option value="16">País Vasco</option>
+									<option value="17">Región de Murcia</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<label for="tratamiento">Tratamiento</label>
+							<select id="tratamiento" name="tratamiento">
+								<optgroup label="Sr o Sra">
+									<option value="01">Sr</option>
+									<option value="02">Sra</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<label for="nombre">Nombre</label>
+							<input type="text" id="nombre" name="nombre"/>
+						</li>
+						<li>
+							<label for="apellido">Apellido</label>
+							<input type="text" id="apellido" name="apellido"/>
+						</li>
+					
+						<li>
+							<label for="direccion">Calle</label>
+							<input type="text" id="direccion" name="direccion"/>
+						</li>
+						<li>
+							<label for="cpostal">Codigo Postal</label>
+							<input type="text" id="cpostal" name="cpostal"/>
+						</li>
+							<li>
+							<label for="ciudad">Ciudad</label>
+							<input type="text" id="ciudad" name="ciudad"/>
+						</li>
+						<li>
+							<label for="pais">País</label>
+							<select id="pais" name="pais" >
+								<optgroup label="País">
+									<option value="01">España</option>
+									<option value="02">Camerun</option>
+									<option value="02">Zimbawe</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<label for="cumpleanos">Cumpleaños</label>
+							<input type="text" id="cumpleanos" name="cumpleanos"/>
+						</li>
+						<li>
+							<label for="nacionalidad">Nacionalidad</label>
+							<select id="nacionalidad" name="nacionalidad">
+								<optgroup label="Nacionalidad">
+									<option value="01">Española</option>
+									<option value="02">Extranjero(a)</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<span>Permiso de trabajo :</span>
+							<input type="radio" id="permiso-si" name="permiso"/>
+							<label for="permiso-si">Si</label>
+
+							<input type="radio" id="permiso-no" name="permiso"/>
+							<label for="permiso-no">No</label>
+						</li>
+						<li>
+							<label for="telefono">Teléfono</label>
+							<input type="text" id="telefono" name="telefono"/>
+						</li>
+						<li>
+							<label for="email">E-mail</label>
+							<input type="text" id="email" name="email"/>
+						</li>
+						<li>
+							<label for="clasepermiso">Clase de permiso de conducir</label>
+							<input type="text" id="clasepermiso" name="clasepermiso"/>
+						</li>
+						<li>
+							<label for="estancia">Estancia en el extranjero</label>
+							<p>Signos sobrantes: 500</p>
+							<textarea id="estancia" name="estancia" rows="5" cols="30"></textarea>
+						</li>
+						<li>
+							<label for="cinfor">Conocimientos Informaticos</label>
+							<p>Signos sobrantes: 500</p>
+							<textarea id="cinfor" name="cinfor" rows="5" cols="30"></textarea>
+						</li>
+						<li>
+							<label for="otrasinfos">Otras informaciones</label>
+							<p>Signos sobrantes: 500</p>
+							<textarea id="otrasinfos" name="otrasinfos" rows="5" cols="30"></textarea>
+						</li>
+						<li>
+							<label for="conocido">¿Cómo nos ha conocido?</label>
+							<select id="conocido" name="conocido">
+								<optgroup label="A través de">
+									<option value="01">Internet</option>
+									<option value="02">Comentarios</option>
+									<option value="03">E-mail</option>
+									<option value="04">Otras opciones</option>
+								</optgroup>
+							</select>
+						</li>
+						<li>
+							<label for="anexos">Anexos al Fichero</label>
+							<input type="file" id="anexos" name="anexos" accept="image/png, image/jpeg"/>
+							<p><input type="reset" value="Eliminar"/></p>
+						</li>
+						<li>
+							<input type="checkbox" id="privacidad" name="privacidad" value="ok"/>
+							<label for="privacidad">Estoy deacuerdo que mis datos personales se guarden para candidaturas en la bse de datos de Lidl. Los datos se tratarán con confidencialidad y según la Ley Española de Protección de Datos</label>
+						</li>
+						<li><p>Utilizamos sus datos sólo para la gestión de su candidatura. Todos los datos serán tratados según las leyes de proteccion de datos.</p></li>
+						<li>
+							<p>Sus datos personales no serán pasados a terceros.</p>
+						</li>
+						</ul>
+						
+						<div><input type="submit" value="Enviar solicitud"/></div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+	font-size: 14px;
+	background-image: url(../img/gmil.png);
+	background-repeat: no-repeat;
+	width: 1260px;
+	font-family: sans-serif;
+	margin: auto;
+	background-position: center top;
+}
+
+header{
+    height: 60px;
+    padding: 20px 0px 0 39px;
+    border: solid 1px #E5E5E5;
+}
+header a{
+	padding-right: 7px;
+}
+header input{
+	float: right;
+	height: 30px;
+	margin-right: 35px;
+	border: solid 1px #C6C6C6;
+}
+/*--------------formulario--------*/
+
+section .formulario{
+	background-color: ;
+	width: 331px;
+	margin: auto;
+}
+section .formulario h1{
+	color:red;
+    padding: 27px 0px 11px 17px;
+    font-size: 21px;
+}
+section .formulario #form{
+	border: solid 1px #E5E5E5;
+    padding: 22px 0 0 15px;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+section .formulario #form p label{
+	display: block;
+}
+section .formulario #form p input#nombre{
+	resize: both;
+    width: 138px;
+    margin: 8px 7px 19px 0;
+    height: 22px;
+}
+section .formulario #form p input#apellido{
+	resize: both;
+    width: 140px;
+    margin: 8px 7px 19px 0;
+    height: 22px;
+    text-align: left;
+}
+section .formulario #form p input#nombredeusuario{
+    width: 293px;
+    height: 22px;
+    resize: both;
+    margin: 8px 0 19px;
+    text-align: right;
+}
+section .formulario #form p:hover input#nombredeusuario{
+    text-align: left;
+}
+section .formulario #form p input#password{
+	resize: both;
+    width: 293px;
+    margin: 8px 7px 19px 0;
+    height: 22px;
+    text-align: right;
+}
+section .formulario #form p input#datetime{
+	resize: both;
+    width: 293px;
+    margin: 8px 7px 19px 0;
+    height: 22px;
+    text-align: left;
+}
+section .formulario #form p #lista-sexo{
+	resize: both;
+    width: 297px;
+    margin: 8px 7px 16px 0;
+    height: 28px;
+}
+section .formulario #form p input#tel{
+	resize: both;
+    width: 293px;
+    margin: 8px 7px 11px 0;
+    height: 24px;
+}
+section .formulario #form p input#acepto{
+	float: left;
+	position: top;
+    display: inline-block;
+    vertical-align: middle;
+}
+section .formulario #form p#acepto{
+	padding: 2px 0px 0px 0;
+    word-spacing: 1px;
+    line-height: 15px;
+    
+}
+section .formulario #form input#enviar{
+	margin: 10px 0 77px 204px;
+    width: 94px;
+    height: 26px;
+    font-size: 0.9em;
+    color: white;
+    background: #3079ED;
+}

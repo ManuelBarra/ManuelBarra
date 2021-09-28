@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animar con clip-path</title>
+	<style>
+		body {
+		  align-items: center;
+		  display: flex;
+		  height: 100vh;
+		  justify-content: space-around;
+		}
+
+		.box {
+		  background: orange;
+		   animation: circleC 3s infinite;
+		  clip-path: circle(75%);
+		  height: 200px;
+		  transition: clip-path 1s;
+		  width: 200px;
+		}
+
+			@keyframes circleC {
+		  0% { clip-path: circle(75%); }
+		  50% { clip-path: circle(25%); }
+		  100% { clip-path: circle(75%); }
+		}
+
+		/*.box:hover {
+		  clip-path: circle(25%);
+		}*/
+		
+		/*.box1{
+			background: green;
+			height: 200px;
+			transition: all .5s;
+			width: 200px;
+		}
+		.box1:hover{
+			background: red;
+			clip-path: inset(5% 5% 5% 5% round 5%);
+		}*/
+		
+
+		.box2 {
+		  animation: circle 3s infinite;
+		  animation-delay: 3s;
+		  background: orange;
+		  clip-path: circle(75%);
+		  height: 200px;
+		  width: 200px;
+		}
+
+		@keyframes circle {
+		  0% { clip-path: circle(75%); }
+		  50% { clip-path: circle(25%); }
+		  100% { clip-path: circle(75%); }
+		}
+	
+
+
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<!-- <div class="box1"></div> -->
+	<div class="box2"></div>
+</body>
+</html>

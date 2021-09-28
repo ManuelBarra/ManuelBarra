@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+	<body>
+		<div id="wrapper">
+			<header></header>
+			<main>
+				<section>
+					<form action="contact.php" method="post">
+						<h1>Register - Create Account</h1>
+						<h2>Field marked with <span>*</span> are compulsory fields</h2>
+						<div class="boxform">
+							<p>
+								<label for="name" ><span>*</span>Your Name</label>
+								<input type="text" id="name" name="name" required>
+							</p>
+							<p>
+								<label for="email"><span>*</span>E-Mail ID</label>
+								<input type="email" name="email" id="email" required>
+							</p>
+							<p>
+								<label for="re-email"><span>*</span>Alternative E-Mail ID</label>
+								<input type="email" name="re-email" id="re-email" required>
+							</p>
+<div class="phone">
+		<p id="yourphone">Your Phone</p>
+		<div class="codigopostal">
+				<p class="cod">
+							<label for="country" class="countrycodedd">Country Code   -  </label>
+							<input type="tel" name="country" id="country" pattern="[0-9]{3}">
+				</p>
+				<p class="cod">
+							<label for="city" class="cityzen">City Code -</label>
+							<input type="tel" name="city" id="citycode" pattern="[0-9]{2}">
+				</p>
+				<p class="cod">
+							<label for="phonenumber" class="phonecall">Phone Number</label>
+							<input type="tel" name="phonenumber" id="phonenumber" pattern="[0-9]{9}">
+				</p>
+		</div>
+</div>
+							<p>
+								<label for="mobil">Mobil Phone</label>
+								<input type="tel" name="mobil" id="mobil" pattern="[0-9]{9}">
+							</p>
+							<div id="textareacss">
+								<p class="addressed">
+									<span>*</span>
+								Your Postal Address
+								</p>
+
+								<textarea name="address" id="address" cols="30" rows="3" required></textarea>
+							</div>
+							<p>
+								<label for="countryselect"><span>*</span>Country</label>
+								<select name="countryselect" id="countryselect" required>
+									<option selected>--------------Select One------------</option>
+									<option value="arg">Argentina</option>
+									<option value="per">Peru</option>
+									<option value="ven">Venezuela</option>
+								</select>
+							</p>
+							<p>
+								<label for="password"><span>*</span>Password</label>
+								<input type="password" name="password" id="password" inputmode="numeric" minlength="4"
+       maxlength="8" size="8" required>
+							</p>
+							<p>
+								<label for="re-password"><span>*</span>Re-Enter Password</label>
+								<input type="password" name="re-password" id="re-password" inputmode="numeric" minlength="4"
+       maxlength="8" size="8" required>
+							</p>
+							<div class="checkebox">
+								<p>
+									<input type="checkbox" name="terms" id="terms">
+								</p>
+								<p class="terms1">	
+									I accept the 
+									<a href="#">Terms of use</a>
+								</p>
+							</div>
+							<div class="botones">
+							<p class="submitee">
+								<button type="submit" id="form" name="form">Continue>></button>
+							</p>
+							<p class="resete" >
+								<button type="reset" id="reset">Reset</button>
+							</p>
+							</div>
+						</div>
+					</form>
+				</section>
+			</main>
+			<footer></footer>
+		</div>
+	</body>
+</html>			

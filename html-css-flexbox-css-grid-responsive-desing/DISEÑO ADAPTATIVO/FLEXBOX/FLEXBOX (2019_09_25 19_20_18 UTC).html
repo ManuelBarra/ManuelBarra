@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FLEXBOX</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body {
+			/*display: flex;
+			flex-direction: column;*/
+			margin:auto;
+		}
+		#wrapper {
+			max-width: 900px;
+			display: flex;
+			flex-direction: column;
+			margin:auto;
+		}
+		img {
+			max-width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<h2 style="text-transform: uppercase;">Propiedades para los padres</h2>
+		<div class="article">
+			<h3 style="text-decoration: underline;">DISPLAY:</h3>
+			<p>Esto define un contenedor flexible; En línea o bloque en función del valor dado. Permite un contexto flexible para todos sus hijos directos.</p>
+			<ul>
+				<li>display: flex</li>
+				<li>display: inline-flex</li>
+			</ul>
+		</div>
+		<br>
+		<br>
+		<div class="article">
+			<h3 style="text-decoration: underline;">FLEX-DIRECTION</h3>
+			<img src="flexdirection.png" alt="#">
+			<p>Esto establece el eje principal, definiendo así la dirección en que se colocan los elementos flexibles en el contenedor flexible. Flexbox es (aparte del ajuste opcional) un concepto de diseño de una sola dirección. Piense en los elementos flexibles como elementos primordiales en filas horizontales o columnas verticales.</p>
+			<p>.container {
+		  flex-direction: row | row-reverse | column | column-reverse;}</p>
+		  <ul>
+		  	<li>row (default): De izquierda a derecha en ltr; De derecha a izquierda en RTL</li>
+			<li>row-reverse: De derecha a izquierda en ltr; De izquierda a derecha en RTL</li>
+			<li>column: Igual que la fila pero de arriba hacia abajo</li>
+			<li>column-reverse: Igual que la fila pero de abajo hacia arriba</li>
+		  </ul>
+		</div>
+		<br>
+		<br>
+		<div class="article">
+			<h3 style="text-decoration: underline;">FLEX-WRAP</h3>
+			<p>Por defecto, todos los elementos de flexión intentarán encajar en una línea. Puede cambiar eso y permitir que los elementos se ajusten según sea necesario con esta propiedad.</p>
+			<img src="flexbox-wrap.png" alt="">
+			<p>.container{ flex-wrap: nowrap | wrap | wrap-reverse;}</p>
+			<ul>
+				<li>nowrap (por defecto): todos los elementos flexibles estarán en una línea</li>
+				<li>wrap: los elementos flexibles se envolverán en varias líneas, de arriba a abajo.</li>
+				<li>wrap-reverse: los elementos flexibles se envolverán en varias líneas de abajo hacia arriba.</li>
+			</ul>
+			<a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">DEMOS</a>
+		</div>
+		<br>
+		<br>
+		<div class="article">
+			<h3 style="text-decoration: underline;">FLEX-FLOW</h3>
+			<p>flex-flow (Applies to: parent flex container element)</p>
+			<p>Esta es una abreviatura de propiedades de flex-direction y flex-wrap, que juntas definen los ejes principal y transversal del contenedor flexible. El valor por defecto es nowrap.</p>
+			<p>flex-flow: <‘flex-direction’> || <‘flex-wrap’></p>
+		</div>
+		<br>
+		<br>
+		<div class="article">
+			<h3 style="text-decoration: underline; text-transform: uppercase;">justify-content</h3>
+			<p>Esto define la alineación a lo largo del eje principal. Ayuda a distribuir el espacio libre adicional que sobra cuando todos los elementos flexibles en una línea son inflexibles, o son flexibles pero han alcanzado su tamaño máximo. También ejerce cierto control sobre la alineación de los elementos cuando se desbordan en la línea.</p>
+			<img src="flexbox-justify-content.png" alt="">
+		</div>
+
+	</div>
+</body>
+</html>

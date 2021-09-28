@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clip-Path 5</title>
+	<style>
+		.box{
+			position: relative;
+		}
+
+		.box img{
+			/*clip-path: polygon(0 0, 0% 100%, 50% 0);*/
+			clip-path: inset(0 72% 0 0);
+		}
+		.box2, .box3{
+			position: absolute;
+			top:0;
+		}
+		.box2 img{
+			/*clip-path: polygon(53% 0, 0 104%, 100% 0);*/
+			clip-path: inset(0 30% 0 30%);
+		}
+
+		.box3 img{
+			/*clip-path: polygon(6% 100%, 100% 100%, 98% 5%);*/
+			clip-path: inset(0 0 0 72%);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="flatiron.jpg" alt="">
+	</div>
+	<div class="box2">
+		<img src="flatiron.jpg" alt="">
+	</div>
+	<div class="box3">
+		<img src="flatiron.jpg" alt="">
+	</div>
+</body>
+</html>

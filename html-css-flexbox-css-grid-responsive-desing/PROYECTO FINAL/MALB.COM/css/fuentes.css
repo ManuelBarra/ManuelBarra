@@ -1,0 +1,7 @@
+@font-face{
+	font-family: 'hellogalleriasans';
+	src: url('fuentes/hellogalleriasans.ttf');
+}
+h1{
+	font-family: hellogallerysans;
+}

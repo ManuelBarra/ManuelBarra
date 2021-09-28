@@ -1,0 +1,65 @@
+body{
+	font-family: Arial, Verdana;
+	font-size: 1em;
+}
+a{
+	text-decoration: none;
+}
+#wrapper{
+	margin: 15px;
+}
+.titulo a{
+	font-size: 30px; 
+	color: red;
+}
+.encuentra{
+	font-size: 10px;
+	padding: 5px 0 3px 10px;
+	text-align: left;
+}
+h2 a{
+	font-size: 20px;
+	text-decoration: underline;
+	padding: 0px 0px 0 27px;
+}
+h2{
+	padding-bottom: 10px;
+}
+.main{
+	overflow: auto;
+}
+img{
+	float: left;
+}
+.post{
+	background: orange;
+	padding: 0px 60px 0px 0px;
+	color: #fff;
+}
+h3{
+	padding: 33px 38px 15px 0px;
+	font-size: 20px;
+	text-align: right;
+}
+.post p{
+	text-align: justify;
+	margin-left: 800px;
+	padding-bottom: 24px;
+	line-height: 1.9;
+}
+.post a{
+	color: #fff;
+	text-align: right;
+	display: block;
+	padding-bottom: 191px;
+}
+p.koala{
+	text-align: justify;
+    margin-left: 800px;
+    padding-bottom: 232px;
+    line-height: 1.9;
+}
+.actual{
+	text-decoration: none;
+	color: black;
+}

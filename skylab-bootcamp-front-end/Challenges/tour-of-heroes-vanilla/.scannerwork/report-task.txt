@@ -1,0 +1,6 @@
+projectKey=hola
+serverUrl=http://localhost:9000
+serverVersion=8.9.1.44547
+dashboardUrl=http://localhost:9000/dashboard?id=hola
+ceTaskId=AXrNPejhP5oweT_8stvv
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXrNPejhP5oweT_8stvv

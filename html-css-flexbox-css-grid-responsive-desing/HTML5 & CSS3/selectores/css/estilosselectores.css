@@ -1,0 +1,109 @@
+body{
+	font-style: 16px;
+	background-image: url(../img/maqeta.png);
+	background-repeat: no-repeat;
+	margin: auto;
+	background-position: center top;
+}
+#wrapper{
+	width: 955px;
+	border: solid 1px black;
+	margin: auto;
+}
+#cabecera{
+	overflow: auto;
+}
+#cabecera .logo{
+	padding: 45px 0 0 45px;
+	float: left;
+}
+#cabecera .logo h2{
+	font-size: 2em;
+	font-family: initial;
+	padding: 15px 0 0 0;
+	word-spacing: -3px;
+}
+#cabecera .estadodoc{
+	float: right;
+	border: solid 1px silver;
+	width: 484px;
+	padding: 10px 0 10px 0;
+	margin: 10px 10px 0 0;
+	border-radius: 10px;
+}
+#cabecera .estadodoc h2{
+	font-size: 1.8em;
+	font-style: initial;
+	padding: 0px 0px 0 10px;
+	word-spacing: -3px;
+}
+#cabecera .estadodoc p{
+	padding: 0 0 9px 10px;
+	font-style: italic;
+	word-spacing: -1px;
+}
+#cabecera .estadodoc ul li{
+	line-height: 19px;
+	padding: 0 0px 0 10px;
+}
+/*--------------------nav-------*/
+h2~h3{
+	font-size: 1.4em;
+	padding: 10px 0 0 7px;
+	word-spacing: -1px;
+}
+nav h3{
+	font-size: 1.4em;
+	padding: 10px 0px 0px 5px;
+}
+nav ul{
+	padding: 4px 0 4px 9px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0 4px 0 0;
+	border-right: solid 1px black;
+	word-spacing: 5px;
+}
+nav ul li:nth-child(7){
+	border-right: none;
+}
+/*-------------section----------*/
+section article{
+	margin: 30px 0 0 0;
+}
+section article h3{
+	font-size: 1.8em;
+	padding: 0px 0px 0px 20px;
+	letter-spacing: -0.5px;
+}
+section article ul{
+	padding: 8px 0 0px 20px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	font-size: 1.1em;
+}
+section article ul li{
+	padding: 0 0 15px 0;
+}
+section article ul li span{
+	display: block;
+}
+section article ul li:nth-child(odd){
+	color: #353535d9;
+}
+section article ul li[class*="segundoplomo"]{
+	color: black;
+}
+section article p{
+	text-align: right;
+	padding: 0 20px 24px 0;
+	font-size: 0.9em;
+}
+section article h3 a:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: #1e5799;
+  margin-right: .25em;
+}
