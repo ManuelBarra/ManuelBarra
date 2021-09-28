@@ -1,0 +1,192 @@
+body{
+	width: 894px;
+	margin: auto;
+	font-family: sans-serif, arial;
+}
+a{
+	text-decoration: none;
+}
+#wrapper{
+	background-image: url("../img/adas.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 488px;
+	margin-top: 50px;
+}
+#wrapper header h1{
+	width: 222px;
+	height: 22px;
+	background: url("../img/megasprite.png") no-repeat;
+	display: inline-block;
+	margin: 0px 0px 0 0;
+	padding: 0 0 0 0;
+	background-position-y: -2px;
+	background-position-x: -47px;
+}
+#wrapper section{
+	overflow: auto;
+}
+#wrapper section article{
+	float: left;
+}
+#wrapper section aside{
+	float: right;
+	width: 435px;
+}
+#wrapper section article #producto {
+	background-image: url("../img/G14822_F_B2CCat_1.jpg");
+	width: 440px;
+	height: 440px;
+	background-repeat: no-repeat;
+	margin: 21px 0 0 0;
+}
+#wrapper section aside div#headaside{
+	overflow: auto;
+}
+#wrapper section aside div#headaside .cajahead{
+	float: left;
+}
+#wrapper section aside div#headaside .cajalogo{
+    float: right;
+    background-image: url(../img/megasprite.png);
+    width: 46px;
+    height: 50px;
+    background-position-x: -500px;
+    background-position-y: -269px;
+    margin: 36px 14px 0 0;
+    padding: 2px;
+}
+#wrapper section aside div#headaside .cajahead h1{
+	font-size: 1.8em;
+    padding: 37px 0 0 1px;
+    font-weight: bold;
+    float: left;
+}
+#wrapper section aside div#headaside .cajahead p{
+	margin: 77px 0 0 42px;
+	font-size: 0.71em;
+}
+#wrapper section aside div#headaside .cajahead p span{
+	width: 10px;
+	height: 10px;
+	background-image: url(../img/megasprite.png);
+	display: inline-block;
+	vertical-align: middle;
+	background-position-x: -9px;
+	background-position-y: -287px;
+	padding: 0 0 0 3px;
+}
+#wrapper section aside form{
+	border: solid 1px #CCCCCC;
+	margin: 23px 0 0 0;
+	width: 417px;
+	padding: 20px 0 0 0;
+	font-size: 0.8em;
+	font-weight: 800;
+}
+#wrapper section aside form p.colorete{
+	margin: 5px 0 0 25px;
+	width: 346px;
+	height: 28px;
+}
+#wrapper section aside form p label[for="color"]{
+	display: inline-block;
+}
+#wrapper section aside form p label[for="color"] span{
+	display: inline-block;
+	font-weight: 100;
+	word-spacing: 4px;
+}
+#wrapper section aside form p input[type="color"]{
+	width: 37px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 0px 0 22px;
+}
+#wrapper section aside form .galeria{
+	padding: 0 0 0 26px;
+}
+#wrapper section aside form .galeria ul li{
+	display: inline-block;
+	width: auto;
+	border: solid 1px
+	#CCC;
+	margin: 3px 0px 0px 4px;
+	padding: 0px 0px 0 0px;
+}
+/*----------------tallas----------------*/
+
+#wrapper section aside form p.tallarines label{
+	font-size: 1em;
+	font-weight: 600;
+	display: block;
+	margin: 12px 0 0 25px;
+}
+#wrapper section aside form p.tallarines label a{
+	font-weight: 200;
+	word-spacing: 4px;
+}
+#wrapper section aside form p.tallarines #talla{
+	display: inline-block;
+	width: 325px;
+	margin: 10px 0 0 25px;
+}
+#wrapper section aside form p.estrellas{
+	background-image: url(../img/megasprite.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 12px;
+    background-position-x: -341px;
+    background-position-y: -292px;
+    float: left;
+}
+#wrapper section aside form div.estrellitas{
+	overflow: auto;
+	margin: 10px 0 36px 26px;
+	height: 15px;
+}
+#wrapper section aside form div.estrellitas p.leer a{
+	font-size: 0.9em;
+	font-weight: 200;
+	padding: 0 10px 0 5px;
+}
+#wrapper section aside form div.estrellitas p.leer a:nth-child(1){
+	border-right: solid 1px #CCCCCC;
+}
+#wrapper section aside form div.estrellistas p.leer{
+	float: left;
+}
+#wrapper section aside form .precio{
+	background-color: #CCCCCC;
+}
+#wrapper section aside form .precio .precioeuro{
+	display: inline-block;
+	font-size: 26px;
+	margin: 18px 0px 0 17px;
+	font-weight: 600;
+}
+#wrapper section aside form .precio .boton{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 14px 165px;
+}
+#wrapper section aside form .precio .boton input{
+	resize: both;
+	width: 136px;
+	line-height: 33px;
+	margin: 10px 0 0 0;
+	border-radius: 25px;
+	color: white;
+	background: #314755;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-weight: bold;
+}
+#wrapper section aside div.enlaces{
+	display: inline-block;
+	font-size: 0.7em;
+	padding: 15px 0 0 15px;
+}
+#wrapper section aside div.enlaces a{
+	padding: 0 12px 0 0;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Variables CSS (Custom Properties)</title>
+	<!-- herencia
+	Cascada -->
+		<style>
+		/*x + 5 = 10 // x=5
+		x + 10 = 15
+
+		comportamiento de las variables
+		global o local
+		se usan como valor
+		elemento as alto del dom es html
+		html
+		:root (pseudo clase) nivel mas alto para las globales
+		
+		can i use
+		variable
+		*/
+
+		:root{
+			--color: green;
+			--box-shadow: 2px 5px 5px #000;
+		}
+
+		body{
+			background: var(--color);
+		/*	background: var(--color, fallback);*/
+		/*fallback = valor o otro variable*/
+			margin: 10px;
+		}
+
+		h1 {
+			background: white;
+			color: var(--color);
+			box-shadow: var(--box-shadow);
+		}
+
+	</style>
+	
+</head>
+<body>
+	<h1>CSS VARIABLES</h1>
+<!-- 	problema de css no es un programa de programacion, carece de variblas, condicionales, ciclos...
+
+	una variable = un lugar donde almacenas un valor para reutilizarlo -->
+
+
+</body>
+</html>

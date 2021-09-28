@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ITEMS</title>
+	<style>
+		*{box-sizing: border-box;}
+		body{/*height: 100vh;*/ background: #262823; color: white;}
+		a{color:white; text-decoration: none;}
+		header{text-align: center;}
+		h1{ font-size: 8rem; line-height: 10rem; }
+		h2{ font-size: 4rem; text-align: center; }
+		.flex-container{max-width:1200px;
+			margin:auto;
+			height: 800px;
+			border: 3px solid white;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*flex-flow: row wrap;*/
+			/*justify-content: space-between;*/
+			/*align-items: flex-start;*/
+			/*align-content: center;*/
+		}
+		.flex-item {
+			/*width:100px;*/
+			/*padding: 2rem; 
+			margin: 0.5rem;*/
+			height: 100px;
+
+			/***FLEX***/
+			/*flex-grow: <number>;*/
+			/*flex-grow: 1;*/ /*cuando puedan que crezcan hasta ocupar el 100% del padre*/
+			/* crecimiento que va a tener en relacion a sus hermanos*/
+
+			/*flex-shrink: 1;
+			*/
+			/*flex-basis: 20%;*/
+			/*flex-basis: <Alto o ancho segun el eje> | auto;*/ /* default auto */
+
+			flex: 1 1 400px;
+			/*grow, shrink, basis*/
+
+			/*align-self: ;*/
+			/*align-self: auto | flex-start | flex-end | center | baseline | stretch;*/
+
+			/*order: <integer>;*/
+		}
+		div.one{ 
+			background: #A55959;
+			order:4;
+			/*align-self: flex-end;*/
+			/* el stretch tiene que ir con height auto*/
+		}
+		div.two{background: #59A57F;
+			order:3;}
+		div.three{
+			order:2; 
+			/*flex-grow: 3; *//*va a crecer 3 veces mas que sus hermanos*/
+			flex-shrink:1 ; /*a que ritmo va a encoger cuando falte espacio*/
+			/*align-self: center;*/
+			background: #59A5A5;}
+		div.four{ 
+			background: #ff4040;
+			order:1;}
+		div.five{background: steelblue;}
+		div.six{background: coral;}
+		
+
+			@media all and (max-width:768px){
+					
+				
+				
+			}
+		} 
+	</style>
+</head>
+<body>
+	<!-- <header>
+		<h1>Bienvenidos a FlexBox</h1>
+	</header> -->
+	<!-- <img src="flexbox.jpg" alt=""> -->
+	<h2>Propiedades para los Hijos(items)</h2>
+	<main class="flex-container">
+		<div class="flex-item one">ORDER 1</div>
+		<div class="flex-item two">FLEX-GROW 2</div>
+		<div class="flex-item three">FLEX-SHRINK 3</div>
+		<div class="flex-item four">FLEX-BASIS 4</div>
+		<div class="flex-item five">ALIGN-SELF 5</div>
+		<div class="flex-item six">ALIGN-CONTENT</div>
+		<!-- <div class="flex-item four">JUSTIFY-CONTENT</div>
+		<div class="flex-item five">ALIGN-ITEMS</div>
+		<div class="flex-item six">ALIGN-CONTENT</div> -->
+		
+	</main>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+#wrapper{
+	background-image: url(../img/DistriucionesDebian.png);
+	background-repeat: no-repeat;
+	width: 1090px;
+	height: 619px;
+	margin: auto;
+}
+#principal #logo{
+	display: inline-block;
+}
+#principal .menu{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 826px;
+	padding: 0 38px;
+	background-color: #ff4a02eb;
+}
+#principal .menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#principal .menu ul li{
+	width: 161px;
+	height: 47px;
+	margin: 0 0 0 0;
+	display: inline-block;
+	text-align: center;
+	transition: all 3s ease-in;
+}
+#principal .menu ul li.nav a{
+	position: absolute;
+	z-index: 100;
+	display: block;
+	text-decoration: none;
+	color:white;
+	padding: 16px 50px 17px 50px;
+	text-shadow: -3px 2px 1px rgba(0, 0, 0, 0.83);
+}
+
+#principal .menu ul li.nav a:hover{
+	background-color: #000000d1;
+}
+
+#principal .menu ul li.nav div{
+	/*display: none;*/
+	position: absolute;
+	/*z-index: 50;*/
+	left: -700px;
+	top: 91px;
+	width: 875px;
+	height: 500px;
+	border: solid 1px #C5C5C5;
+	color:black;
+	text-align: left;
+	opacity: 0;
+	transition: all .3s ease-in;
+}
+#principal .menu ul li.nav div h2{
+	font-size: 2em;
+    font-weight: 700;
+    padding: 8px 0px 0px 28px;
+    width: 445px;
+   	display: inline-block;
+}
+#principal .menu ul li.nav div h3{
+	padding: 0px 0px 11px 28px;
+    font-size: 0.8em;
+    width: 445px;
+    display: inline-block;
+}
+
+#principal .menu ul li.nav:hover div{
+	left: 7px;
+	opacity: 1;
+}
+
+#principal .menu ul li.nav:focus div{
+	  left: 7px;
+	  opacity: 1;
+}
+#principal .menu ul li.nav div p{
+    width: 445px;
+    padding: 0px 0px 0 10px;
+    line-height: 25px;
+    display: inline-block;
+}
+#principal .menu ul li.nav div img{
+	display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}

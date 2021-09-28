@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BIENVENIDOS A FLEXBOX</title>
+	<style>
+		*{box-sizing: border-box;}
+		body{background: #262823; color: white;}
+		a{color:white; text-decoration: none;}
+		header{text-align: center;}
+		h1{ font-size: 6rem; line-height: 10rem; }
+		h2{ font-size: 4rem; text-align: center; }
+		p{ font-size: 4rem; font-weight: bold; }
+		main.flex-container{
+			max-width:1200px;
+			margin:auto;
+			min-height: 200vh;
+			border: 5px solid white;
+			
+			display: flex;
+			flex-direction: raw;
+			/*flex-wrap: nowrap;*/
+			/*flex-flow: row wrap;*/
+			/*justify-content: space-around;*/
+			/*align-items: center;*/ /*verticalmente stretch por defecto*/
+			/*align-content: space-between;*/ /*para orientar varias lineas de elementos, wrap stretch por defecto*/
+			}
+		div.header {
+			font-size: 1.5rem;
+			width: 600px;
+			height: 400px;
+			margin: auto;
+			background: steelblue;
+			/***FLEX***/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		main div.flex-item {
+			padding: 2rem; 
+			margin: 1rem; 
+			
+			/*width: calc(33.33% - 2rem); *//*para hacer 2 columnas con 6*/
+			
+		}
+		div.one{background: #A55959;}
+		div.two{background: #59A57F;}
+		div.three{background: #59A5A5;}
+		div.four{background: #ff4040;}
+		div.five{background: steelblue;}
+		div.six{background: coral;}
+
+		/*@media all and (max-width:768px){
+			main {
+				flex-direction: column-reverse; una solo regla para responsive
+			}
+		} */
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1>Bienvenidos a FlexBox</h1>
+		<p>Modelo de Layout</p>
+		<div class="header">¡Mirad, sin position, ni margin, ni text-align!</div>
+	</header>
+	
+	<h2>Propiedades para el Contenedor</h2>
+	<main class="flex-container">
+		<div class="flex-item one"><a href="display.html">1-DISPLAY</a></div>
+		<div class="flex-item two">2-FLEX-DIRECTION</div>
+		<!-- <div class="flex-item three">3-FLEX-WRAP</div>
+		<div class="flex-item four">4-JUSTIFY-CONTENT</div>
+		<div class="flex-item five">5-ALIGN-ITEMS</div>
+		<div class="flex-item six">6-ALIGN-CONTENT</div> -->
+	</main>
+	<a href="https://www.w3.org/TR/css-flexbox-1/">Especificación flexbox w3.org</a>
+</body>
+</html>

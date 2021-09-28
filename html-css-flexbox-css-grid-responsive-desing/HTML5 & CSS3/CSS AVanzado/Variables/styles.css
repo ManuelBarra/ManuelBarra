@@ -1,0 +1,58 @@
+:root{
+	--header-height: 3rem;
+}
+
+body{
+	background: #eee;
+	margin-top: var(--header-height);
+
+}
+a{
+	color: inherit;
+}
+.main-header{
+	position: fixed;
+	top:0;
+	width: 96%;
+	height: var(--header-height);
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+	background: #fff;
+}
+
+.logo{
+	height: 2rem;
+}
+.topnav .responsive{
+	display: flex;
+	align-items: center;
+	width: 50%;
+    justify-content: flex-end;
+	}
+.topnav  a {display: none;}
+.topnav  a.icon{
+		display: block;
+	}
+
+@media screen and (min-width: 800px){
+	:root{
+		--header-height: 4rem;
+	}
+	body{
+		margin-top: 4rem;
+	}
+	.main-header{
+		height: var(--header-height);
+	}
+	.topnav {
+		justify-content: space-around;
+	}
+	.topnav  a {display: block;
+	}
+	.topnav  a.icon{
+		display: none;
+	}
+}

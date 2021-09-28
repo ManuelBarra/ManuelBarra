@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Indice de foro</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="main">
+			<form action="datos.php" method="post">
+				<fieldset>
+					<legend>Índice de foro</legend>
+					<p>Términos y condiciones en <a href="https://elotrolado.net">ElOtroLado.net</a></p>
+					<ul>
+						<li>
+							<label for="usuario">Usuario</label>
+							<input type="text" id="usuario" name="usuario"/>
+							<p>Entre 3 y 20 caracteres. Sólo letras, números, espacios o símbolos - + _ []</p>
+						</li>
+						<li>
+							<label for="email">E-mail</label>
+							<input type="text" id="email" name="email"/>
+						</li>
+						<li>
+							<label for="email">Repite tu E-mail</label>
+							<input type="text" id="email2" name="email"/>
+							<p>Esta dirección tiene que se válida, porque te enviaremos un e-mail de activación. Si no te llega en unos minutos, recuerda revisar la carpeta de spam</p>
+						</li>
+						<li>
+							<label for="contrasena">Contraseña</label>
+							<input type="password" id="contrasena" name="contrasena"/>
+							<p>Entre 6 a 30 caracteres. Debe contener letras y números. No utilices la misma contraseña que otro sitio.</p>
+						</li>
+						<li>
+							<label for="contrasena">Repite la Contraseña</label>
+							<input type="password" id="contrasena2" name="contrasena"/>
+						</li>
+						<li>
+							<label for="preguntaseguridad">¿De qué color era el caballo blanco de Santiago?</label>
+							<input type="text" id="preguntaseguridad" name="preguntaseguridad"/>
+						</li>
+						<li>
+							<label for="captcha">Código de confirmación:</label><img src="img/captcha.png" alt="hola mundo"/>
+							<input type="text" id="captcha" name="captcha"/>
+							<p>No importa si escribes en mayúsculas o minúsculas. Si ves algo parecido a un cero, será la letra O.</p>
+						</li>
+					</ul>
+					<p><input type="submit" value="Registrarse"/></p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

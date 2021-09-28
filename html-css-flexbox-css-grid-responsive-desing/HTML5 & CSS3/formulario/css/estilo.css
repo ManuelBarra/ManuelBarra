@@ -1,0 +1,203 @@
+body{
+	font-size: 18px;
+	font-family: Sans-serif, 'Verdana';
+	background-image: url('');
+	 /*F5FAF9, #E0F0E8, #55917A y #617E78*/
+}
+
+#wrapper{
+	width: 554px;
+	margin: auto;
+}
+main{
+	margin: 5px 0 0px 5px;
+	border: solid 3px #E0F0E8;
+	background-color: #F5FAF9;
+}
+span{
+	color: red;
+}
+main section{
+	margin: 18px 0 0 7px;
+}
+main section form h1{
+	color: #55917A;
+	font-size: 1em;
+}
+main section form h2{
+	font-size: 0.72em;
+	background-color: #E0F0E8;
+	border: #59958B 
+	dashed 1px;
+	margin: 13px 6px 3px 0px;
+	padding: 6px 0px 3px 3px;
+}
+main section form .boxform{
+	margin: 18px 0 0 0;
+}
+main section form p label{
+	background-color: #E0F0E8;
+	padding: 6px 6px 7px 0px;
+	width: 163px;
+	display: inline-block;
+	font-size: 0.635em;
+	color: #666;
+	text-align: right;
+	margin: 0 4px 3px 0px;
+}
+
+input#name{
+	padding: 0 83px 0 0;
+	border: solid 1px #E0F0E8;
+	
+}
+input#email{
+	padding: 0 0 0 173px;
+	border: solid 1px #E0F0E8;
+}
+input#re-email{
+	padding: 0 0 0 173px;
+	border: solid 1px #E0F0E8;
+	margin: 3px 0 0px 0px;
+}
+.boxform .phone p#yourphone{
+	background-color: #E0F0E8;
+	padding: 6px 6px 7px 0px;
+	width: 163px;
+	display: inline;
+	font-size: 0.635em;
+	color: #666;
+	text-align: right;
+	margin: 0px 2px 0px 0px;
+	line-height: 2.3;
+}
+.codigopostal p label.countrycodedd{
+	font-size: 0.5em;
+	width: 73px;
+	line-height: 0.3;
+	vertical-align: text-bottom;
+	margin: 0 1px 0px 0;
+	background-color: #F5FAF9;
+}
+.codigopostal p label.cityzen{
+	font-size: 0.5em;
+	width: 49px;
+	line-height: 0.3;
+	vertical-align: text-bottom;
+	margin: 0px 0 0px 4px;
+	background-color: #F5FAF9;
+}
+.codigopostal p label.phonecall{
+	font-size: 0.5em;
+	width: 62px;
+	line-height: 0.3;
+	vertical-align: text-bottom;
+	margin: 0 0 0px 3px;
+	background-color:#F5FAF9;
+}
+/*----------------------telefonoconchudo-------------*/
+
+.phone{
+	overflow: auto;
+	margin: 0 0 4px 0;
+}
+.phone p#yourphone{
+	float: left;
+}
+.phone div.codigopostal{
+	float: left;
+	overflow: auto;
+}
+.phone div.codigopostal p.cod{
+	float: left;
+	margin: 4px 0 0 0;
+}
+.phone div.codigopostal p.cod label{
+	display: block;
+}
+.phone div.codigopostal p.cod input{
+	margin: 0 0 0 7px;
+}
+
+/*-------------fin-------------------*/
+input{
+	border: 1px solid #E0F0E8
+}
+input#country{
+	font-size: 0.5em;
+	width: 60px;
+}
+input#citycode{
+	font-size: 0.5em;
+	width: 43px;
+}
+input#phonenumber{
+	font-size: 0.5em;
+	width: 150px;
+}
+input#mobil{
+	font-size: 0.5em;
+	width: 220px;
+}
+.addressed{
+	;
+}
+select#countryselect{
+	font-size: 0.8em;
+	width: 220px;
+}
+input#password, input#re-password{
+	font-size: 0.5em;
+	width: 200px;
+}
+#textareacss{
+	overflow: auto;
+	margin-bottom: 4px;
+}
+p.addressed{
+	float: left;
+	background-color:#E0F0E8;
+	width: 163px;
+	font-size: 0.635em;
+	color:#666;
+	text-align: right;
+	line-height: 66px;
+	margin-right: 9px;
+	padding-left: 0px;
+	padding-right: 6px;
+}
+#address{
+	border: solid 1px #E0F0E8;
+	float: left;
+}
+.checkebox{
+	overflow: auto;
+	margin: 0 0 0 176px;
+}
+#terms{
+	float: left;
+}
+.terms1{
+	float: left;
+    font-size: 0.6em;
+    margin: 4px 0 0 0;
+    color: #59958b;
+    font-weight: 700;
+    font-family: Verdana;
+
+}
+.botones{
+	overflow: auto;
+    margin: 10px 0px 0 179px;
+}
+.submitee, .resete{
+	float: left;	
+}
+button#form, button#reset{
+	margin: 2px 8px 10px 0;
+	border: solid 1px#1a1adfd4;
+	border-radius: 3px;
+	line-height: 1.4;
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Background Blend Mode 4</title>
+	<style>
+		body{display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+		div{min-height: 300px; flex-basis: 31.33%; margin: 10px;}
+		.box{
+			background: url('holi.jpg') left / cover, linear-gradient(black,white);
+		  	background-blend-mode: darken, luminosity;
+		  	background-repeat: no-repeat;
+		}
+		.box1{
+			background: url('holi.jpg') left / cover;
+		  	background-repeat: no-repeat;
+		  	transition: all .5s;
+		}
+		.box1:hover{
+			background: url('holi.jpg') left / cover, linear-gradient(red,blue);
+		  	background-blend-mode: soft-light;
+		  	background-repeat: no-repeat;
+		}
+		.box2{
+			background: url('holi.jpg') left / cover, linear-gradient(red,blue);
+		  	background-blend-mode: luminosity;
+		  	background-repeat: no-repeat;
+		}
+		.box3{
+			background: url('holi.jpg') left / cover, linear-gradient(red,blue);
+		  	background-blend-mode: color-burn, luminosity;
+		  	background-repeat: no-repeat;
+		}
+		.box4{
+			background: url('holi.jpg') left / cover, linear-gradient(red,blue);
+		  	background-blend-mode: hue;
+		  	background-repeat: no-repeat;
+		}
+		.box5{
+			background: url('holi.jpg') left / cover, linear-gradient(red,blue);
+		  	background-blend-mode: screen;
+		  	background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+	<div class="box5"></div>
+</body>
+</html>

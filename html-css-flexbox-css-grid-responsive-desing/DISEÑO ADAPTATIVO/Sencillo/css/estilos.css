@@ -1,0 +1,102 @@
+/*-------->Manolo camina solo<----------*/
+body{
+	font-family: verdana, sans-serif;
+	font-size: 15px;
+}
+#wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 99vh;
+	display: flex;
+	flex-flow: row wrap;
+}
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5em;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	display: flex;
+	width: 100%;
+	align-self: flex-start;
+}
+header .logo{
+	padding: 30px;
+	flex: 1 0 auto;
+
+}
+header .navegator{
+	padding: 30px;
+	flex: 5 0 auto;
+	margin: auto;
+}
+header .navegator ul{
+	display: flex;
+	justify-content: flex-end;
+}
+header .navegator ul li{
+	padding: 10px;
+}
+main{
+	display: flex;
+	width: 100%;
+	align-self: flex-start;
+}
+main article{
+	width: 100%;
+}
+main article .welcome{
+	background-color: #335af4;
+	height: 30vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+main article .welcome h2{
+	color: white;
+	font-size: 2.2rem;
+	padding: 10px;
+}
+main article .banner{
+	width: 100vh;
+	height: 45vh;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+main article .banner p{
+	padding: 7vh 10vh;
+	background-color: silver;
+}
+footer{
+	display: flex;
+	width: 100%;
+	background-color: pink;
+	justify-content: space-around;
+}
+footer .texto{
+	padding: 10px;
+	flex: 3 0 60%;
+	text-align: center;
+}
+footer .texto p{
+	font-size: 0.8em;
+}
+footer .button{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	background-color: #335af4;
+}
+footer .button a{
+	align-self: center;
+	background-color: #335af4;
+	padding: 40px;
+
+}

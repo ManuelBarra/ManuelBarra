@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DISPLAY</title>
+	<style>
+		*{box-sizing: border-box;}
+		body{/*height: 100vh;*/ background: #262823; color: white;}
+		a{color:white; text-decoration: none;}
+		
+		h2{ font-size: 4rem; text-align: center; }
+		.flex-container{max-width:1200px;
+			margin:auto;
+			height: 800px;
+			border: 3px solid white;
+
+			/***FLEX***/
+			display: flex;
+			/* or inline-flex*/ 
+
+			/*flex-direction: row;*/
+			/*flex-direction: row | row-reverse | column | column-reverse*/
+
+		/*	flex-wrap: wrap;*/
+			/*flex-wrap: nowrap | wrap | wrap-reverse;*/
+			
+			flex-flow: column wrap ; /*Atajo 
+			/*flex-flow: <‘flex-direction’> || <‘flex-wrap’>*/
+			
+			justify-content: center ;
+			/*justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end */
+
+		/*	align-items: center;*/
+			 /*align-items: stretch | flex-start | flex-end | center | baseline */
+
+			align-content: center;
+			/*align-content: flex-start | flex-end | center | space-between | space-around | space-evenly ;*/
+			/*para orientar varias lineas de elementos*/
+			}
+		.flex-item {
+			padding: 2rem; margin: 0.5rem; 
+			width: 200px;
+			height: 150px;}
+		div.one{background: #A55959;}
+		div.two{background: #59A57F;}
+		div.three{background: #59A5A5;}
+		div.four{background: #ff4040;}
+		div.five{background: steelblue;}
+		div.six{background: coral;}
+	</style>
+</head>
+<body>
+	
+	<h2>Propiedades para el Contenedor</h2>
+	<main class="flex-container">
+		<div class="flex-item one">1</div>
+		<div class="flex-item two">2</div>
+		<div class="flex-item three">3</div>
+		<div class="flex-item four">4</div>
+		<div class="flex-item five">5</div>
+		<div class="flex-item six">6</div>
+		
+	</main>
+	<a href="items.html">Propiedades de los hijos</a>
+</body>
+</html>

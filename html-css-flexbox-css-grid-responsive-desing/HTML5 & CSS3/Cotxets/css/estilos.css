@@ -1,0 +1,355 @@
+body{
+	background-image: url('../img/template.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	height: 3000px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+/*------------>address<------------*/
+#address{
+	overflow: auto;
+	background-color: #E8DFDF;
+}
+#address>a{
+	float: left;
+	font-size: 0.9em;
+	line-height: 35px;
+	padding: 0 0px 0 153px;
+	letter-spacing: 0px;
+	color: #707674;
+}
+#address>a span{
+	padding: 0 7px 0 0;
+} 
+#address p{
+	float: right;
+	font-size: 0.8em;
+	line-height: 20px;
+}
+#address p.skype{
+	padding: 0px 166px 0 5px;
+	border-left: solid 1px black;
+}
+#address p{
+	margin: 8px 0 0 5px;
+	color:#707674;
+}
+#address p a{
+	color: #444643;
+	font-size: 0.9em;
+}
+/*-------------->fin address<-------------*/
+/*-------------->header y nav<------------*/
+#header{
+	background-color: white;
+	overflow: auto;
+	padding-bottom: 10px;
+}
+#header .logo{
+	float: left;
+}
+#header .logo h1{
+	padding: 10px 0px 5px 155px;
+	font-size: 1.8em;
+}
+#header .logo h1 a{
+	color: #221F1A;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+#header .logo h1 a strong{
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+#header .logo h1 a span i{
+	font-size: 0.7em;
+	background-color:#ff3c00;
+	padding: 7px 3px 5px 5px;
+	border-radius: 25px;
+	margin: 0 0px 0 3px;
+}
+#header .logo .autor{
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 0 0px 0 230px;
+}
+#header .navegator{
+	float:right;
+}
+#header .navegator{
+	padding: 27px 140px 0 0;
+}
+#header .navegator ul li{
+	display: inline-block;
+	font-size: 0.8em;
+}
+#header .navegator ul li a{
+	color: #727674;
+	margin-right: 30px;
+}
+/*--------------> fin header y nav<------------*/
+/*--------------> section <-----------------*/
+/*--------------> article <-----------------*/
+section article{
+	background-image: url(../img/minicar.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin: auto;
+	height: 605px;
+}
+section article .contain{
+    width: 444px;
+    margin: 0px 0 0 76px;
+    padding: 116px 10px 304px 10px;
+    background-color: #ffffff70;
+}
+section article .contain h1{
+	font-size: 1.5em;
+	color: #980B04;
+    text-align: center;
+    word-spacing: -1px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 0 0px 20px 0;
+}
+section article .contain p{
+	line-height: 22px;
+}
+section article .contain a{
+	color:white;
+	background-color:#FF0302;
+	font-size: 0.9em;
+	padding: 15px 16px 15px 16px;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+	margin: 9px 5px 0 301px;
+}
+/*-----------------> fin article <----------------*/
+/*-----------------> banner <---------------------*/
+section .banner{
+	overflow: auto;
+	background-color: #01C9A5;
+	padding-bottom: 20px;
+}
+section .banner .text{
+	float: left;
+	width: 630px;
+	margin: 10px 0px 0 154px;
+}
+section .banner .bantitle{
+	color: white;
+	font-size: 1.5em;
+	font-weight: 10;
+	margin: 12px 0 0 0;
+}
+section .banner .bantitle strong{
+	font-weight: bold;
+}
+section .banner p{
+	padding: 5px 0 0 0;
+	font-style: italic;
+	color: white; 
+}
+section .banner a{
+	float: right;
+	margin: 22px 167px 0 0;
+	font-size: smaller;
+	color: white;
+	padding: 20px 13px 16px 15px;
+	background-color:#8F0304;
+}
+/*---------------> fin banner <---------------*/
+/*---------------> Que hacemos <--------------*/
+.quehacemos{
+	background-color: white;
+	padding: 0 0 38px 0;
+}
+.quehacemos h1{
+	margin: 38px 0px 40px 223px;
+	font-size: 1.4em;
+	word-spacing: 5px;
+}
+.quehacemos h1 strong{
+	font-weight: bold;
+}
+.quehacemos h2{
+	font-size: 0.8em;
+	text-align: center;
+	color:#01C9A5;
+	background-color:#01C9A51A;
+	width: 797px;
+	margin: auto;
+	padding: 11px 80px 10px 80px;
+	line-height: 17px;
+}
+.quehacemos ul{
+	margin: auto;
+	width: 959px;
+}
+.quehacemos ul .qhicons{
+	display: inline-block;
+	width: 200px;
+	margin: 40px 0px 0 30px;
+}
+.quehacemos ul .qhicons i{
+	text-align: center;
+	margin: 0 0 0 60px;
+	font-size: 1.8em;
+	padding: 23px 23px 23px 23px;
+	color:white;
+	border-radius: 38px;
+}
+.quehacemos ul .qhicons:nth-child(1) i{
+	background-color: #00B1F7;
+}
+.quehacemos ul .qhicons:nth-child(2) i{
+	background-color: #00F1D1;
+}
+.quehacemos ul .qhicons:nth-child(3) i{
+	background-color: #E9A76B;
+}
+.quehacemos ul .qhicons:nth-child(4) i{
+	background-color: #FB7E86;
+}
+.quehacemos ul .qhicons h3{
+	text-align: center;
+	font-size: 1.5em;
+	color:#4d4a4a;
+	margin: 16px 0 0 0;
+}
+.quehacemos ul .qhicons p{
+	font-size: 0.8em;
+	line-height: 22px;
+	margin: 16px 0px 0 3px;
+	color:#5e5b5b;
+}
+/*------------> fin que hacemos <-------------*/
+section #gallery{
+	background-color: #E2E2E2;
+	padding-bottom: 20px;
+}
+section #gallery .gall{
+	font-size: 2em;
+	text-align: center;
+	margin: 38px 0 0 0;
+	color:#373737;
+} 
+section #gallery .autos{
+	width: 884px;
+	margin: auto;
+}
+section #gallery .autos ul li{
+	display: inline-block;
+}
+section #gallery .autos ul li img{
+	width: 211px;
+	height: 200px;
+	padding: 23px 1px 0 5px;
+}
+section #gallery .autos ul li img:hover{
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+section #gallery .autos ul li p{
+	font-size: 0.8em;
+	text-align: center;
+	background-color:#707674;
+	width: 209px;
+	margin: -3px 0px 0 7px;
+	padding: 5px 0 5px 0;
+	color: white;
+}
+/*---------------> fin que hacemos <-----------*/
+section .formulario{
+	overflow: auto;
+	background-color: white;
+	padding-bottom: 43px;
+}
+section .formulario .form{
+	float: left;
+}
+section .formulario .form .formh1{
+	margin: 58px 0px 15px 148px;
+	font-size: 1.5em;
+}
+section .formulario .form form p input{
+	width: 468px;
+	margin: 2px 0 0 153px;
+	height: 38px;
+	font-size: 1.1em;
+}
+section .formulario .form form p:last-of-type input{
+	width: 106px;
+	float: right;
+	margin: 10px 10px 0px 0px;
+	height: 41px;
+	background-color:#8F0304;
+	color: white;
+}
+section .formulario .form form p textarea{
+	width: 468px;
+	margin: 5px 0 0 153px;
+	height: 150px;
+}
+section .formulario .aside{
+	float: right;
+	width: 500px;
+	margin: 57px 112px 0 0;
+}
+section .formulario .aside .asideh1{
+	font-size: 1.5em;
+	margin: 0 0 45px 0;
+}
+section .formulario .aside p{
+	font-size: 0.8em;
+	margin: 10px 90px 0 30px;
+	line-height: 22px;
+	font-style: italic;
+}
+section .formulario .aside .post{
+	overflow: auto;
+}
+section .formulario .aside .post img{
+	float: left;
+	margin: 33px 0 0 19px;
+}
+section .formulario .aside .post .asidepost{
+	float: right;
+	margin-top: 32px;
+}
+section .formulario .aside .post .asidepost p{
+	font-style: inherit;
+	margin: 0 291px 0 0;
+}
+section .formulario .aside .post .asidepost p.gina{
+	font-weight: bold;
+}
+/*-----------------footer-----------------*/
+footer .superfoot{
+	width: 970px;
+	margin: auto;
+	overflow: auto;
+	color: white;
+	font-size:0.8em;
+}
+footer .superfoot div{
+	float: left;
+	width: 220px;
+}
+footer .superfoot div .direccion{
+	padding: 30px 0 0 0;
+}

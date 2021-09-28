@@ -1,0 +1,121 @@
+body{
+	box-sizing: border-box;
+}
+section #contenedor{
+	background-image: url(../img/cats.jpg);
+	background-repeat: no-repeat;
+	width: 1280px; 
+	height: 900px;
+	background-size: contain;
+}
+@keyframes girar {
+	0%{
+		opacity: 0;
+		-webkit-transform: rotate(0deg);
+	   -moz-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	     -o-transform: rotate(0deg);
+	        transform: rotate(0deg);
+	}
+	100%{
+		opacity: 1;
+		-webkit-transform: rotate(345deg);
+	   -moz-transform: rotate(345deg);
+	    -ms-transform: rotate(345deg);
+	     -o-transform: rotate(345deg);
+	        transform: rotate(345deg);
+	        z-index: 100;
+	}
+}
+@keyframes girar2 {
+	0%{
+		left: 300px;
+		opacity: 0.1;
+		transform: rotate(15deg);
+		transition-timing-function: linear;
+	}
+	50%{
+		left: -300px;
+		opacity: 0.5;
+		transform: rotate(-15deg);
+		transition-timing-function: linear;
+	}
+	100%{
+		left: 226px;
+		opacity: 1;
+		transform: rotate(15deg);
+		transition-timing-function: linear;
+
+	}
+}
+@keyframes transladar {
+	0%{
+		opacity: 0;
+		transform: translate(200px, 100px) rotate(-20deg);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0px, 0px) rotate(20deg);
+		z-index: 50;
+
+	}
+}
+@keyframes logo{
+	0%{
+		opacity: 0;
+		transform: scale(.1);
+		transition-timing-function: linear;
+
+}
+	50%{
+		opacity: 1;
+		transform: scale(.5)rotate(20deg);
+		transition-timing-function: linear;
+}
+	100%{
+		background-image: blue;
+		transform: scale(1) rotate(-15deg);
+		transition-timing-function: linear;
+		z-index: 25;
+
+}
+}
+#caja1{
+	position: absolute;
+	left: 189px;
+	top: 27px;
+	border: solid 1px white;
+	background-color: white;
+	animation: girar 10s infinite;
+}
+#caja2{
+	position: absolute;
+	left: 634px;
+	top: 50px;
+	border: solid 1px white;s
+	background-color: white;
+	animation: transladar 10s infinite;
+	transition-timing-function: linear;
+}
+#caja3{
+	position: absolute;
+	left: 226px;
+	top: 307px;
+	border: solid 1px white;
+	background-color: white;
+	animation: girar2 10s infinite ;
+	z-index: 75;
+}
+#caja4{
+	position: absolute;
+	left: 606px;
+	top: 296px;
+	border: solid 1px white;
+	background-color: white;
+	animation: logo 10s infinite;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}

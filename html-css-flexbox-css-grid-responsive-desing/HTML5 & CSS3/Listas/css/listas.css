@@ -1,0 +1,68 @@
+body{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	
+}
+a{text-decoration: none;}
+
+.boxlogo h1{
+	background: #FE7C00;
+	width: 233px;
+	text-align: center;
+	padding: 22px 0px 21px 1px;	
+}
+.boxlogo h1 a {
+	color: #FFFFFF;
+	font-size: 19px;
+
+}
+nav {
+	background-color: #454418;
+	width: 675px;
+	
+}
+ul.menu{
+	overflow: auto;
+
+}
+ul.menu a{
+	color: #FFFFFF;
+	float: left;
+	padding: 20px 1px 15px 40px;
+	text-decoration: underline;
+}
+ul.menu p{
+	color: #eee;
+	padding: 20px 42px 20px 0px;
+	font-size: 12px;
+	text-align: right;
+}
+h2 {
+	color: #8E8673;
+	font-size: 23px;
+	padding: 11px 0px 33px 0px;
+}
+.post ul{
+	overflow: auto;
+}
+.post ul li{
+	float: left;
+	padding: 0px 65px 45px 0px;
+	width: 160px;
+}
+.producto4{
+	clear: both;
+}
+.post ul li h3{
+	font-size: 14px;
+	padding-top: 15px;
+	color: #FE7C00;
+	text-decoration: underline;
+	width: 216px;
+}
+.post ul li p{
+	font-size: 14px;
+	padding-top: 15px;
+	color: #050003 ;
+	text-decoration: underline;
+}
