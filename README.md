@@ -17,7 +17,7 @@ const aboutMe = {
          js: ["Node", "Express"],
          misc: ["Jest", "EsLint", SonarQube]
       },
-      databases: ["MongoDB", "Express", ],
+      databases: ["MongoDB" ],
       mobile: ["Android", "IOS"]
    },
 };
