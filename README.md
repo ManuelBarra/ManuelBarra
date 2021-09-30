@@ -2,7 +2,7 @@
 Personal Repository
 <p><em>A Front-end developer at <a href="https://isdicoders.com/es" blank>ISDI Coders</a>. 😊</br>
 </em></p>
-```
+```javascript
 const aboutManu = {
    technologies: {
       frontEnd: { 
