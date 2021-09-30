@@ -3,25 +3,19 @@ Personal Repository
 <p><em>A Front-end developer at <a href="https://isdicoders.com/es" blank>ISDI Coders</a>. 😊</br>
 </em></p>
 
-
-```javascript
-const aboutMe = {
-   pronouns: "he" | "him",
-   code: [JavaScript, HTML, CSS, Sass, BEM],
+const aboutManu = {
    technologies: {
-      frontEnd: {
-         js: ["React"],
+      frontEnd: { 
+         habilities: ["HTML", "CSS", "Sass","JavaScript", "React", "Redux", "Firebase"],
          css: ["Materialize", "Bootstrap", "Material Design", "Semantic UI"]
       },
       backEnd: {
-         js: ["Node", "Express"],
-         misc: ["Jest", "EsLint", SonarQube]
+         js: ["Node", "Express", "MongoDB", "Mongoose", "JTW", "API RESTful" ],
+         misc: ["Jest", "EsLint", "SonarQube"]
       },
-      databases: ["MongoDB" ],
-      mobile: ["Android", "IOS"]
    },
 };
-```
+
 </br></br>
 <h2>💻 Some stats 💻</h2>
 
