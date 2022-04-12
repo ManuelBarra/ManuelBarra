@@ -1,0 +1,27 @@
+.section-buttons {
+  position: static;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  margin: -450px 0 0 0;
+}
+
+.button-add {
+  padding: 15px;
+  border-radius: 30px;
+  width: 55px;
+  border: 5px midnightblue solid;
+  z-index: 50;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: rgba(25, 25, 112, 0);
+  color: moccasin;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .button-add:hover {
+    background-color: midnightblue;
+    color: yellow;
+  }
+}
