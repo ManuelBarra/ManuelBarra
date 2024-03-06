@@ -3,11 +3,11 @@
 
 ```javascript
 const MalB = {
-    pronouns: "He" | "Him",
+    pronouns: "He",
     code: ["Javascript", "HTML", "CSS"],
-    askMeAbout: ["Frontend", "JavaScript", "hip-hop production", "sports"],
+    askMeAbout: ["Frontend", "JavaScript", "music", "sports"],
     technologies: {
-       frontend: ["React, Vue, JQuery, Sass, Boostrap, Tailwind Css"],
+       frontend: ["React, Vue, JQuery, Sass, Boostrap, Tailwind Css, Fundation, Material UI"],
        backEnd: {
             js: ["node", "express"],
         },
