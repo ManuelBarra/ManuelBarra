@@ -1,4 +1,4 @@
-## Manuel Barra 🙏
+## Manuel Barra 
 
 
 ```javascript
