@@ -1,16 +1,13 @@
-## Hi there 👋
+# Manuel Barra Lazo
 
-<!--
-**ManuelBarra/ManuelBarra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full stack developer in Barcelona · Next.js, React & TypeScript · applied AI
 
-Here are some ideas to get you started:
+**Now:** building web and cross-platform products at **SADATA** (BI, AI & custom software) and shipping **Hip Hop 4 Life**, an EdTech platform on Next.js 16, Prisma/PostgreSQL and the Claude API.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Before:** Genomcore (WordPress to Next.js, 100 in every Lighthouse category) · enterprise portals for CaixaBank, Roca and Repsol.
+
+**Learning:** Cross-Platform App Development (Java, Kotlin, Android).
+
+**Stack:** TypeScript · React · Next.js · Node.js · Prisma · PostgreSQL · Vue.js · Tailwind · Claude API
+
+https://www.malb.dev · https://www.linkedin.com/in/manuelbarra · manuelbarralazo@gmail.com
